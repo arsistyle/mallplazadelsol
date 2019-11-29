@@ -1,0 +1,42 @@
+.menu {
+  &__lista {
+    display: flex;
+    padding: 0 1.5rem;
+    a {
+      display: flex;
+      height: var(--header);
+      align-items: center;
+      text-align: center;
+      color: blanco(1);
+      font-size: 1.6rem;
+      padding: 1.5rem;
+      text-decoration: none;
+      position: relative;
+      background: transparent;
+      @include transicion;
+      &[aria-current] {
+        &::after {
+          content: '';
+          display: block;
+          @include posicion(absolute,null,0,0,0);
+          height: 6px;
+          width: 100%;
+          background: $primario;
+        }
+      }
+      &:hover {
+        background: blanco(.05);
+      }
+    }
+  }
+}
+
+.menu-footer {
+  a {
+    display: block;
+    color: blanco(1);
+    font-size: 1.6rem;
+    padding: .5rem 0;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,41 @@
+.footer {
+  background: $secundario;
+  padding: 5rem 1.5rem;
+  &__container {
+    max-width: var(--ancho);
+    margin: auto;
+  }
+  &__logo {
+    width: 120px;
+    height: 75px;
+    display: inline-block;
+    margin-bottom: 3rem;
+  }
+  &__copy {
+    color: blanco(1);
+  }
+  .widget {
+    &:first-child {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+      color: $primario;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: .5rem;
+    }
+    p {
+      color: blanco(1);
+    }
+  }
+  &__red {
+    width: 30px;
+    height: 30px;
+    margin-left: 1.5rem;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

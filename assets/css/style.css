@@ -1,0 +1,536 @@
+@charset "UTF-8";
+/*!
+* ¡ATENCIÓN! Hoja de estilos generada con SASS, no modificar.
+*/
+/* line 1, gulp-files/scss/style/base/general.scss */
+body {
+  --ancho: 1360px;
+  --header: 130px;
+  --logoHeader: 90px;
+}
+
+/* line 5, gulp-files/scss/style/base/general.scss */
+body.scrolled {
+  --header: 80px;
+  --logoHeader: 60px;
+}
+
+@media (max-width: 1199px) {
+  /* line 1, gulp-files/scss/style/base/general.scss */
+  body {
+    --header: 60px;
+    --logoHeader: 40px;
+  }
+  /* line 12, gulp-files/scss/style/base/general.scss */
+  body.scrolled {
+    --header: 60px;
+    --logoHeader: 40px;
+  }
+}
+
+/* line 19, gulp-files/scss/style/base/general.scss */
+main {
+  transition: all ease 200ms;
+  padding-top: var(--header);
+}
+
+/* line 24, gulp-files/scss/style/base/general.scss */
+.texto-imagen {
+  font-size: 0px;
+}
+
+/* line 28, gulp-files/scss/style/base/general.scss */
+.frame {
+  max-width: var(--ancho);
+  margin: auto;
+}
+
+/* line 33, gulp-files/scss/style/base/general.scss */
+.burger {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  transition: all ease 200ms;
+}
+
+/* line 41, gulp-files/scss/style/base/general.scss */
+.burger__item {
+  height: .3rem;
+  background: white;
+  transition: all ease 200ms;
+  transform-origin: 0 0;
+}
+
+/* line 50, gulp-files/scss/style/base/general.scss */
+.menu-responsive-active .burger .burger__item:nth-child(1) {
+  transform: rotate(45deg);
+  transform-origin: -10% 50%;
+}
+
+/* line 54, gulp-files/scss/style/base/general.scss */
+.menu-responsive-active .burger .burger__item:nth-child(2) {
+  opacity: 0;
+}
+
+/* line 57, gulp-files/scss/style/base/general.scss */
+.menu-responsive-active .burger .burger__item:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: -10% 50%;
+}
+
+/* line 1, gulp-files/scss/style/layout/header.scss */
+.header {
+  background: #333333;
+  padding: 0 1.5rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+/* line 6, gulp-files/scss/style/layout/header.scss */
+.header__container {
+  max-width: var(--ancho);
+  margin: auto;
+  height: var(--header);
+  transition: all ease 200ms;
+}
+
+/* line 13, gulp-files/scss/style/layout/header.scss */
+.header__item--menu {
+  margin-left: auto;
+}
+
+@media (max-width: 1199px) {
+  /* line 13, gulp-files/scss/style/layout/header.scss */
+  .header__item--menu {
+    display: none;
+  }
+}
+
+/* line 19, gulp-files/scss/style/layout/header.scss */
+.header__item h1 {
+  margin: 0;
+  line-height: 1;
+}
+
+/* line 24, gulp-files/scss/style/layout/header.scss */
+.header__logo {
+  display: block;
+  height: var(--logoHeader);
+  transition: all ease 200ms;
+}
+
+/* line 1, gulp-files/scss/style/layout/cartelera.scss */
+.cartelera {
+  padding-bottom: 10rem;
+}
+
+/* line 1, gulp-files/scss/style/layout/footer.scss */
+.footer {
+  background: #333333;
+  padding: 5rem 1.5rem;
+}
+
+/* line 4, gulp-files/scss/style/layout/footer.scss */
+.footer__container {
+  max-width: var(--ancho);
+  margin: auto;
+}
+
+/* line 8, gulp-files/scss/style/layout/footer.scss */
+.footer__logo {
+  width: 120px;
+  height: 75px;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+/* line 14, gulp-files/scss/style/layout/footer.scss */
+.footer__copy {
+  color: white;
+}
+
+/* line 18, gulp-files/scss/style/layout/footer.scss */
+.footer .widget:first-child {
+  margin-bottom: 3rem;
+}
+
+/* line 21, gulp-files/scss/style/layout/footer.scss */
+.footer .widget h2 {
+  font-size: 2rem;
+  color: #BF9156;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+/* line 28, gulp-files/scss/style/layout/footer.scss */
+.footer .widget p {
+  color: white;
+}
+
+/* line 32, gulp-files/scss/style/layout/footer.scss */
+.footer__red {
+  width: 30px;
+  height: 30px;
+  margin-left: 1.5rem;
+}
+
+/* line 36, gulp-files/scss/style/layout/footer.scss */
+.footer__red svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 2, gulp-files/scss/style/componentes/menu.scss */
+.menu__lista {
+  display: flex;
+  padding: 0 1.5rem;
+}
+
+/* line 5, gulp-files/scss/style/componentes/menu.scss */
+.menu__lista a {
+  display: flex;
+  height: var(--header);
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  position: relative;
+  background: transparent;
+  transition: all ease 200ms;
+}
+
+/* line 18, gulp-files/scss/style/componentes/menu.scss */
+.menu__lista a[aria-current]::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background: #BF9156;
+}
+
+/* line 27, gulp-files/scss/style/componentes/menu.scss */
+.menu__lista a:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* line 35, gulp-files/scss/style/componentes/menu.scss */
+.menu-footer a {
+  display: block;
+  color: white;
+  font-size: 1.6rem;
+  padding: .5rem 0;
+  text-decoration: none;
+}
+
+/* line 1, gulp-files/scss/style/componentes/menu-responsive.scss */
+.menu-responsive {
+  position: fixed;
+  top: var(--header);
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 36rem;
+  background: #333333;
+  z-index: 99;
+  display: none;
+  transform: translateX(100%);
+  transition: all ease 200ms;
+  padding: 3rem;
+}
+
+@media (max-width: 1199px) {
+  /* line 1, gulp-files/scss/style/componentes/menu-responsive.scss */
+  .menu-responsive {
+    display: block;
+  }
+}
+
+/* line 14, gulp-files/scss/style/componentes/menu-responsive.scss */
+.menu-responsive__container {
+  height: calc(100% - 6rem);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* line 19, gulp-files/scss/style/componentes/menu-responsive.scss */
+.menu-responsive-active .menu-responsive {
+  transform: translateX(0);
+}
+
+/* line 22, gulp-files/scss/style/componentes/menu-responsive.scss */
+.menu-responsive__lista {
+  margin-bottom: 3rem;
+}
+
+/* line 26, gulp-files/scss/style/componentes/menu-responsive.scss */
+.menu-responsive .menu-item a {
+  display: block;
+  font-size: 1.7rem;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 0;
+}
+
+/* line 32, gulp-files/scss/style/componentes/menu-responsive.scss */
+.menu-responsive .menu-item a[aria-current] {
+  color: #BF9156;
+}
+
+/* line 1, gulp-files/scss/style/componentes/slider.scss */
+.slider {
+  margin-bottom: 80px;
+}
+
+/* line 3, gulp-files/scss/style/componentes/slider.scss */
+.slider__item {
+  position: relative;
+  padding-bottom: 3rem;
+  display: block;
+}
+
+/* line 8, gulp-files/scss/style/componentes/slider.scss */
+.slider__img {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 12, gulp-files/scss/style/componentes/slider.scss */
+.slider__sombra {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+/* line 3, gulp-files/scss/style/componentes/cards.scss */
+.cards__item {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+/* line 8, gulp-files/scss/style/componentes/cards.scss */
+.cards__item img {
+  display: block;
+  width: 100%;
+}
+
+/* line 13, gulp-files/scss/style/componentes/cards.scss */
+.cards__estreno {
+  padding: 1rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  background: #BF9156;
+  z-index: 2;
+  font-size: 2.4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+/* line 23, gulp-files/scss/style/componentes/cards.scss */
+.cards__img {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 27, gulp-files/scss/style/componentes/cards.scss */
+.cards__sombra {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  opacity: 0;
+  transition: all ease 200ms;
+}
+
+/* line 34, gulp-files/scss/style/componentes/cards.scss */
+.cards__title {
+  font-size: 2.5rem;
+}
+
+/* line 37, gulp-files/scss/style/componentes/cards.scss */
+.cards__generos {
+  margin-bottom: 1.5rem;
+}
+
+/* line 39, gulp-files/scss/style/componentes/cards.scss */
+.cards__generos .badge {
+  margin-right: 0.5rem;
+}
+
+/* line 45, gulp-files/scss/style/componentes/cards.scss */
+.cards__item:hover .cards__sombra {
+  opacity: 1;
+}
+
+/* line 2, gulp-files/scss/style/componentes/intereses.scss */
+.intereses--home {
+  padding: 10rem;
+  background: #fafafa;
+}
+
+/* line 6, gulp-files/scss/style/componentes/intereses.scss */
+.intereses__item {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+/* line 10, gulp-files/scss/style/componentes/intereses.scss */
+.intereses__image {
+  overflow: hidden;
+}
+
+/* line 12, gulp-files/scss/style/componentes/intereses.scss */
+.intereses__image img {
+  display: block;
+  width: 100%;
+  transition: all ease 200ms;
+}
+
+/* line 20, gulp-files/scss/style/componentes/intereses.scss */
+.intereses__item:hover img {
+  transform: scale(1.1);
+}
+
+/* line 2, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__image {
+  position: -webkit-sticky;
+  position: sticky;
+  top: var(--header);
+}
+
+/* line 5, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__image img {
+  display: block;
+  width: 100%;
+}
+
+/* line 10, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__estreno {
+  padding: 1rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  background: #BF9156;
+  z-index: 2;
+  font-size: 2.4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+/* line 20, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__trailer {
+  display: block;
+  position: relative;
+}
+
+/* line 23, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__trailer img {
+  display: block;
+  width: 100%;
+}
+
+/* line 27, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__trailer__cover {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 31, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__trailer__sombra {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+/* line 36, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__trailer__play {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 42, gulp-files/scss/style/componentes/pelicula.scss */
+.pelicula__trailer__play img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
+/* line 1, gulp-files/scss/style/componentes/banner.scss */
+.banner {
+  --height: 400px;
+  position: relative;
+  overflow: hidden;
+  height: var(--height);
+  background: #1a1a1a;
+  padding: 0 1.5rem;
+}
+
+/* line 9, gulp-files/scss/style/componentes/banner.scss */
+.banner__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+}
+
+/* line 13, gulp-files/scss/style/componentes/banner.scss */
+.banner__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* line 18, gulp-files/scss/style/componentes/banner.scss */
+.banner__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  height: var(--height);
+}
+
+/* line 26, gulp-files/scss/style/componentes/banner.scss */
+.banner__info h1, .banner__info h2 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

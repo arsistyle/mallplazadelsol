@@ -1,0 +1,25 @@
+.intereses {
+  &--home {
+    padding: 10rem;
+    background: gris(98);
+  }
+  &__item {
+    display: block;
+    margin-bottom: 3rem;
+  }
+  &__image {
+    overflow: hidden;
+    img {
+      display: block;
+      width: 100%;
+      @include transicion;
+    }
+  }
+  &__item {
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  background: $secundario;
+  padding: 0 1.5rem;
+  @include posicion(fixed,0,0,null,0);
+  z-index: 99;
+  &__container {
+    max-width: var(--ancho);
+    margin: auto;
+    height: var(--header);
+    @include transicion;
+  }
+  &__item {
+    &--menu {
+      margin-left: auto;
+      @include break(xl-mw) {
+        display: none;
+      }
+    }
+    h1 {
+      margin: 0;
+      line-height: 1;
+    }
+  }
+  &__logo {
+    display: block;
+    height: var(--logoHeader);
+    @include transicion;
+  }
+}

@@ -1,0 +1,30 @@
+/*!
+* ¡ATENCIÓN! Hoja de estilos generada con SASS, no modificar.
+*/
+
+@import "../ars1/CONFIG";
+
+
+// Auxiliares
+@import '../ars1/auxiliares/colors';
+@import '../ars1/auxiliares/functions';
+@import '../ars1/auxiliares/variables';
+@import '../ars1/auxiliares/mediaqueries';
+@import '../ars1/auxiliares/mixins';
+
+// Base
+@import 'base/general';
+
+// Layout
+@import 'layout/header';
+@import 'layout/cartelera';
+@import 'layout/footer';
+
+// Componentes
+@import 'componentes/menu';
+@import 'componentes/menu-responsive';
+@import 'componentes/slider';
+@import 'componentes/cards';
+@import 'componentes/intereses';
+@import 'componentes/pelicula';
+@import 'componentes/banner';

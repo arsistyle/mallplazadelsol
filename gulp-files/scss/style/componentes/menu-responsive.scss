@@ -1,0 +1,37 @@
+.menu-responsive {
+  @include posicion(fixed,var(--header),0,0,null);
+  width: 100%;
+  max-width: 36rem;
+  background: $secundario;
+  z-index: 99;
+  display: none;
+  transform: translateX(100%);
+  @include transicion;
+  padding: 3rem;
+  @include break(xl-mw){
+    display: block;
+  }
+  &__container {
+    height: calc(100% - 6rem);
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .menu-responsive-active & {
+    transform: translateX(0);
+  }
+  &__lista {
+    margin-bottom: 3rem;
+  }
+  .menu-item {
+    a {
+      display: block;
+      font-size: 1.7rem;
+      color: blanco(1);
+      text-decoration: none;
+      padding: 1rem 0;
+      &[aria-current] {
+        color: $primario;
+      }
+    }
+  }
+}
