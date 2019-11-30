@@ -44,7 +44,7 @@ if ( ! function_exists( 'mallplazadelsol_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'mallplazadelsol' ),
+			'principal' => esc_html__( 'Menú principal', 'mallplazadelsol' ),
 		) );
 
 		/*
@@ -157,5 +157,18 @@ require get_template_directory() . '/inc/customizer.php';
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
+}
+
+// Pagina de opciones
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Opciones globales',
+		'menu_title'	=> 'Opciones globales',
+		'menu_slug' 	=> 'opciones-globales',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+	
 }
 

@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package mallplazadelsol
+ * @package cinesol
  */
 
 ?>
@@ -17,42 +17,73 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+  <script>
+		
+		// GOOGLE FONTS
+		WebFontConfig = {
+			google: {
+				families: ['Montserrat:300,400,600,800']
+			}
+		};
+		(function () {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				'://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mallplazadelsol' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$mallplazadelsol_description = get_bloginfo( 'description', 'display' );
-			if ( $mallplazadelsol_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $mallplazadelsol_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mallplazadelsol' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+	<main>
 
-	<div id="content" class="site-content">
+    <header class="header <?php if(is_front_page() && get_field('activar_banner', 'options')) echo 'header--home'; ?>" id="header">
+      <div class="header__container flex-xs align-middle-xs">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header__item header__item--logo">
+          <?php if ( is_front_page() ) : ?>
+            <h1 class="texto-imagen">
+              <img src="<?php bloginfo('template_directory'); ?>/img/logo-mpds.svg" alt="<?php bloginfo('name'); ?>" class="header__logo">
+              <?php bloginfo('name'); ?>
+            </h1>
+          <?php else : ?>
+            <img src="<?php bloginfo('template_directory'); ?>/img/logo-mpds.svg" alt="<?php bloginfo('name'); ?>" class="header__logo">
+          <?php endif; ?>
+        </a>
+
+        <?php
+        $menuConfig = [
+          'theme_location' => 'principal',
+          'menu_class' => 'menu__lista',
+          'container' => 'nav',
+          'container_class' => 'header__item header__item--menu menu'
+        ];
+          wp_nav_menu($menuConfig);
+        ?>
+
+        <div class="header__item burger flex-xs oculto-xl" onclick="menuResponsive.toggle();">
+          <div class="burger__item"></div>
+          <div class="burger__item"></div>
+          <div class="burger__item"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="menu-responsive">
+        <div class="menu-responsive__container">
+          <?php
+          $menuConfig = [
+            'theme_location' => 'principal',
+            'menu_class' => 'menu-responsive__lista',
+            'container' => 'nav'
+          ];
+            wp_nav_menu($menuConfig);
+          ?>
+        </div>
+    </div>

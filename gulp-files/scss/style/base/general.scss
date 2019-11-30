@@ -1,18 +1,14 @@
 body {
 	--ancho: 1360px;
-	--header: 130px;
-	--logoHeader: 90px;
-	&.scrolled {
-		--header: 80px;
-		--logoHeader: 60px;
-	}
+	--header: 80px;
+	--logoHeader: 60px;
+	// &.scrolled {
+	// 	--header: 80px;
+	// 	--logoHeader: 60px;
+	// }
 	@include break (xl-mw) {
 		--header: 60px;
 		--logoHeader: 40px;
-		&.scrolled {
-			--header: 60px;
-			--logoHeader: 40px;
-		}
 	}
 }
 

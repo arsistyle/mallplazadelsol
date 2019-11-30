@@ -5,12 +5,6 @@
 /* line 1, gulp-files/scss/style/base/general.scss */
 body {
   --ancho: 1360px;
-  --header: 130px;
-  --logoHeader: 90px;
-}
-
-/* line 5, gulp-files/scss/style/base/general.scss */
-body.scrolled {
   --header: 80px;
   --logoHeader: 60px;
 }
@@ -21,68 +15,74 @@ body.scrolled {
     --header: 60px;
     --logoHeader: 40px;
   }
-  /* line 12, gulp-files/scss/style/base/general.scss */
-  body.scrolled {
-    --header: 60px;
-    --logoHeader: 40px;
-  }
 }
 
-/* line 19, gulp-files/scss/style/base/general.scss */
+/* line 15, gulp-files/scss/style/base/general.scss */
 main {
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   padding-top: var(--header);
 }
 
-/* line 24, gulp-files/scss/style/base/general.scss */
+/* line 20, gulp-files/scss/style/base/general.scss */
 .texto-imagen {
   font-size: 0px;
 }
 
-/* line 28, gulp-files/scss/style/base/general.scss */
+/* line 24, gulp-files/scss/style/base/general.scss */
 .frame {
   max-width: var(--ancho);
   margin: auto;
 }
 
-/* line 33, gulp-files/scss/style/base/general.scss */
+/* line 29, gulp-files/scss/style/base/general.scss */
 .burger {
   width: 2.5rem;
   height: 2.5rem;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
   margin-left: auto;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
-/* line 41, gulp-files/scss/style/base/general.scss */
+/* line 37, gulp-files/scss/style/base/general.scss */
 .burger__item {
   height: .3rem;
   background: white;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
-  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+/* line 46, gulp-files/scss/style/base/general.scss */
+.menu-responsive-active .burger .burger__item:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: -10% 50%;
+          transform-origin: -10% 50%;
 }
 
 /* line 50, gulp-files/scss/style/base/general.scss */
-.menu-responsive-active .burger .burger__item:nth-child(1) {
-  transform: rotate(45deg);
-  transform-origin: -10% 50%;
-}
-
-/* line 54, gulp-files/scss/style/base/general.scss */
 .menu-responsive-active .burger .burger__item:nth-child(2) {
   opacity: 0;
 }
 
-/* line 57, gulp-files/scss/style/base/general.scss */
+/* line 53, gulp-files/scss/style/base/general.scss */
 .menu-responsive-active .burger .burger__item:nth-child(3) {
-  transform: rotate(-45deg);
-  transform-origin: -10% 50%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: -10% 50%;
+          transform-origin: -10% 50%;
 }
 
 /* line 1, gulp-files/scss/style/layout/header.scss */
 .header {
-  background: #333333;
+  background: #3d3d3d;
   padding: 0 1.5rem;
   position: fixed;
   top: 0;
@@ -92,35 +92,42 @@ main {
 }
 
 /* line 6, gulp-files/scss/style/layout/header.scss */
+.header--home {
+  background: transparent;
+}
+
+/* line 9, gulp-files/scss/style/layout/header.scss */
 .header__container {
   max-width: var(--ancho);
   margin: auto;
   height: var(--header);
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
-/* line 13, gulp-files/scss/style/layout/header.scss */
+/* line 16, gulp-files/scss/style/layout/header.scss */
 .header__item--menu {
   margin-left: auto;
 }
 
 @media (max-width: 1199px) {
-  /* line 13, gulp-files/scss/style/layout/header.scss */
+  /* line 16, gulp-files/scss/style/layout/header.scss */
   .header__item--menu {
     display: none;
   }
 }
 
-/* line 19, gulp-files/scss/style/layout/header.scss */
+/* line 22, gulp-files/scss/style/layout/header.scss */
 .header__item h1 {
   margin: 0;
   line-height: 1;
 }
 
-/* line 24, gulp-files/scss/style/layout/header.scss */
+/* line 27, gulp-files/scss/style/layout/header.scss */
 .header__logo {
   display: block;
   height: var(--logoHeader);
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
@@ -131,7 +138,7 @@ main {
 
 /* line 1, gulp-files/scss/style/layout/footer.scss */
 .footer {
-  background: #333333;
+  background: #3d3d3d;
   padding: 5rem 1.5rem;
 }
 
@@ -162,7 +169,7 @@ main {
 /* line 21, gulp-files/scss/style/layout/footer.scss */
 .footer .widget h2 {
   font-size: 2rem;
-  color: #BF9156;
+  color: #C72463;
   font-weight: normal;
   margin: 0;
   margin-bottom: .5rem;
@@ -188,15 +195,18 @@ main {
 
 /* line 2, gulp-files/scss/style/componentes/menu.scss */
 .menu__lista {
+  display: -webkit-box;
   display: flex;
   padding: 0 1.5rem;
 }
 
 /* line 5, gulp-files/scss/style/componentes/menu.scss */
 .menu__lista a {
+  display: -webkit-box;
   display: flex;
   height: var(--header);
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
   text-align: center;
   color: white;
   font-size: 1.6rem;
@@ -204,6 +214,7 @@ main {
   text-decoration: none;
   position: relative;
   background: transparent;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
@@ -217,7 +228,7 @@ main {
   left: 0;
   height: 6px;
   width: 100%;
-  background: #BF9156;
+  background: #C72463;
 }
 
 /* line 27, gulp-files/scss/style/componentes/menu.scss */
@@ -242,10 +253,12 @@ main {
   bottom: 0;
   width: 100%;
   max-width: 36rem;
-  background: #333333;
+  background: #1CB48D;
   z-index: 99;
   display: none;
-  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   padding: 3rem;
 }
@@ -266,7 +279,8 @@ main {
 
 /* line 19, gulp-files/scss/style/componentes/menu-responsive.scss */
 .menu-responsive-active .menu-responsive {
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 /* line 22, gulp-files/scss/style/componentes/menu-responsive.scss */
@@ -285,7 +299,7 @@ main {
 
 /* line 32, gulp-files/scss/style/componentes/menu-responsive.scss */
 .menu-responsive .menu-item a[aria-current] {
-  color: #BF9156;
+  color: #C72463;
 }
 
 /* line 1, gulp-files/scss/style/componentes/slider.scss */
@@ -337,7 +351,7 @@ main {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  background: #BF9156;
+  background: #C72463;
   z-index: 2;
   font-size: 2.4rem;
   position: absolute;
@@ -362,6 +376,7 @@ main {
   -webkit-filter: blur(5px);
           filter: blur(5px);
   opacity: 0;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
@@ -406,12 +421,14 @@ main {
 .intereses__image img {
   display: block;
   width: 100%;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
 /* line 20, gulp-files/scss/style/componentes/intereses.scss */
 .intereses__item:hover img {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* line 2, gulp-files/scss/style/componentes/pelicula.scss */
@@ -433,7 +450,7 @@ main {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  background: #BF9156;
+  background: #C72463;
   z-index: 2;
   font-size: 2.4rem;
   position: absolute;
@@ -479,9 +496,12 @@ main {
   bottom: 0;
   left: 0;
   z-index: 2;
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 /* line 42, gulp-files/scss/style/componentes/pelicula.scss */
@@ -522,8 +542,10 @@ main {
 /* line 18, gulp-files/scss/style/componentes/banner.scss */
 .banner__container {
   position: relative;
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
   z-index: 1;
   height: var(--height);
 }

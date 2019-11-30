@@ -60,162 +60,162 @@ body {
 
 /* line 48, gulp-files/scss/ars1/base/general.scss */
 ::-moz-selection {
-  background: #333333;
+  background: #1CB48D;
   color: white;
 }
 ::selection {
-  background: #333333;
+  background: #1CB48D;
   color: white;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario {
-  color: #BF9156;
+  color: #C72463;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario100 {
-  color: #7f5c30;
+  color: #711438;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario200 {
-  color: #916a37;
+  color: #861843;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario300 {
-  color: #a4773e;
+  color: #9c1c4e;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario400 {
-  color: #b68545;
+  color: #b12058;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario500 {
-  color: #BF9156;
+  color: #C72463;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario600 {
-  color: #c69d68;
+  color: #d92c6f;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario700 {
-  color: #cda97b;
+  color: #dd417d;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario800 {
-  color: #d4b58d;
+  color: #e1578c;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--primario900 {
-  color: #dbc1a0;
+  color: #e46d9b;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario {
-  color: #333333;
+  color: #1CB48D;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario100 {
-  color: black;
+  color: #0e5c48;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario200 {
-  color: #0d0d0d;
+  color: #127259;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario300 {
-  color: #1a1a1a;
+  color: #15886a;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario400 {
-  color: #262626;
+  color: #199e7c;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario500 {
-  color: #333333;
+  color: #1CB48D;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario600 {
-  color: #404040;
+  color: #1fca9e;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario700 {
-  color: #4d4d4d;
+  color: #26ddae;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario800 {
-  color: #595959;
+  color: #3ce1b6;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--secundario900 {
-  color: #666666;
+  color: #52e4bf;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario {
-  color: #8C6239;
+  color: #F5C73D;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario100 {
-  color: #442f1b;
+  color: #c2940a;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario200 {
-  color: #563c23;
+  color: #daa70b;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario300 {
-  color: #68492a;
+  color: #f3b90d;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario400 {
-  color: #7a5532;
+  color: #f4c025;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario500 {
-  color: #8C6239;
+  color: #F5C73D;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario600 {
-  color: #9e6f40;
+  color: #f6ce55;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario700 {
-  color: #b07b48;
+  color: #f8d56e;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario800 {
-  color: #bb8857;
+  color: #f9dc86;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
 .color--terciario900 {
-  color: #c29569;
+  color: #fae39e;
 }
 
 /* line 108, gulp-files/scss/ars1/base/general.scss */
@@ -285,152 +285,152 @@ body {
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario {
-  background-color: #BF9156;
+  background-color: #C72463;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario100 {
-  background-color: #7f5c30;
+  background-color: #711438;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario200 {
-  background-color: #916a37;
+  background-color: #861843;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario300 {
-  background-color: #a4773e;
+  background-color: #9c1c4e;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario400 {
-  background-color: #b68545;
+  background-color: #b12058;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario500 {
-  background-color: #BF9156;
+  background-color: #C72463;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario600 {
-  background-color: #c69d68;
+  background-color: #d92c6f;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario700 {
-  background-color: #cda97b;
+  background-color: #dd417d;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario800 {
-  background-color: #d4b58d;
+  background-color: #e1578c;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--primario900 {
-  background-color: #dbc1a0;
+  background-color: #e46d9b;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario {
-  background-color: #333333;
+  background-color: #1CB48D;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario100 {
-  background-color: black;
+  background-color: #0e5c48;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario200 {
-  background-color: #0d0d0d;
+  background-color: #127259;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario300 {
-  background-color: #1a1a1a;
+  background-color: #15886a;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario400 {
-  background-color: #262626;
+  background-color: #199e7c;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario500 {
-  background-color: #333333;
+  background-color: #1CB48D;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario600 {
-  background-color: #404040;
+  background-color: #1fca9e;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario700 {
-  background-color: #4d4d4d;
+  background-color: #26ddae;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario800 {
-  background-color: #595959;
+  background-color: #3ce1b6;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--secundario900 {
-  background-color: #666666;
+  background-color: #52e4bf;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario {
-  background-color: #8C6239;
+  background-color: #F5C73D;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario100 {
-  background-color: #442f1b;
+  background-color: #c2940a;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario200 {
-  background-color: #563c23;
+  background-color: #daa70b;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario300 {
-  background-color: #68492a;
+  background-color: #f3b90d;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario400 {
-  background-color: #7a5532;
+  background-color: #f4c025;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario500 {
-  background-color: #8C6239;
+  background-color: #F5C73D;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario600 {
-  background-color: #9e6f40;
+  background-color: #f6ce55;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario700 {
-  background-color: #b07b48;
+  background-color: #f8d56e;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario800 {
-  background-color: #bb8857;
+  background-color: #f9dc86;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
 .bg--terciario900 {
-  background-color: #c29569;
+  background-color: #fae39e;
 }
 
 /* line 117, gulp-files/scss/ars1/base/general.scss */
@@ -500,152 +500,152 @@ body {
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario {
-  fill: #BF9156;
+  fill: #C72463;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario100 {
-  fill: #7f5c30;
+  fill: #711438;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario200 {
-  fill: #916a37;
+  fill: #861843;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario300 {
-  fill: #a4773e;
+  fill: #9c1c4e;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario400 {
-  fill: #b68545;
+  fill: #b12058;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario500 {
-  fill: #BF9156;
+  fill: #C72463;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario600 {
-  fill: #c69d68;
+  fill: #d92c6f;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario700 {
-  fill: #cda97b;
+  fill: #dd417d;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario800 {
-  fill: #d4b58d;
+  fill: #e1578c;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--primario900 {
-  fill: #dbc1a0;
+  fill: #e46d9b;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario {
-  fill: #333333;
+  fill: #1CB48D;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario100 {
-  fill: black;
+  fill: #0e5c48;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario200 {
-  fill: #0d0d0d;
+  fill: #127259;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario300 {
-  fill: #1a1a1a;
+  fill: #15886a;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario400 {
-  fill: #262626;
+  fill: #199e7c;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario500 {
-  fill: #333333;
+  fill: #1CB48D;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario600 {
-  fill: #404040;
+  fill: #1fca9e;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario700 {
-  fill: #4d4d4d;
+  fill: #26ddae;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario800 {
-  fill: #595959;
+  fill: #3ce1b6;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--secundario900 {
-  fill: #666666;
+  fill: #52e4bf;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario {
-  fill: #8C6239;
+  fill: #F5C73D;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario100 {
-  fill: #442f1b;
+  fill: #c2940a;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario200 {
-  fill: #563c23;
+  fill: #daa70b;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario300 {
-  fill: #68492a;
+  fill: #f3b90d;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario400 {
-  fill: #7a5532;
+  fill: #f4c025;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario500 {
-  fill: #8C6239;
+  fill: #F5C73D;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario600 {
-  fill: #9e6f40;
+  fill: #f6ce55;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario700 {
-  fill: #b07b48;
+  fill: #f8d56e;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario800 {
-  fill: #bb8857;
+  fill: #f9dc86;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
 .svg--terciario900 {
-  fill: #c29569;
+  fill: #fae39e;
 }
 
 /* line 126, gulp-files/scss/ars1/base/general.scss */
@@ -859,8 +859,11 @@ blockquote {
   font-weight: 300;
   padding: 1.5rem;
   border-left: 2px solid #f0f0f0;
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 /* line 69, gulp-files/scss/ars1/base/tipografias.scss */
@@ -1012,6 +1015,7 @@ ul, ol, dl {
 
 /* line 141, gulp-files/scss/ars1/base/tipografias.scss */
 .lista-items {
+  display: -webkit-box;
   display: flex;
   margin-left: -1.5rem;
   margin-right: -1.5rem;
@@ -1045,7 +1049,7 @@ ul, ol, dl {
   left: 0;
   content: counter(item) ". ";
   counter-increment: item;
-  color: #BF9156;
+  color: #C72463;
 }
 
 /* line 167, gulp-files/scss/ars1/base/tipografias.scss */
@@ -1097,7 +1101,7 @@ lista-definicion dd {
 /* line 213, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo {
   font-size: 1.6rem;
-  color: #BF9156;
+  color: #C72463;
   text-decoration: none;
   position: relative;
   display: inline-block;
@@ -1113,9 +1117,12 @@ lista-definicion dd {
   right: -2px;
   bottom: -2px;
   left: -2px;
-  background: rgba(191, 145, 86, 0.1);
-  transform: scaleX(0);
-  transform-origin: left;
+  background: rgba(199, 36, 99, 0.1);
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
@@ -1126,7 +1133,8 @@ lista-definicion dd {
 
 /* line 279, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo:focus:before {
-  transform: scaleX(0.5);
+  -webkit-transform: scaleX(0.5);
+          transform: scaleX(0.5);
 }
 
 /* line 283, gulp-files/scss/ars1/base/tipografias.scss */
@@ -1136,22 +1144,26 @@ lista-definicion dd {
 
 /* line 285, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo:hover:before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 /* line 2, gulp-files/scss/ars1/base/alineaciones.scss */
 .justify-start-xs {
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
 }
 
 /* line 6, gulp-files/scss/ars1/base/alineaciones.scss */
 .justify-center-xs {
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 
 /* line 10, gulp-files/scss/ars1/base/alineaciones.scss */
 .justify-end-xs {
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
 }
 
 /* line 14, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -1161,167 +1173,204 @@ lista-definicion dd {
 
 /* line 18, gulp-files/scss/ars1/base/alineaciones.scss */
 .justify-between-xs {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
 }
 
 /* line 22, gulp-files/scss/ars1/base/alineaciones.scss */
 .align-top-xs {
-  align-items: flex-start;
+  -webkit-box-align: start;
+          align-items: flex-start;
 }
 
 /* line 26, gulp-files/scss/ars1/base/alineaciones.scss */
 .align-middle-xs {
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 /* line 30, gulp-files/scss/ars1/base/alineaciones.scss */
 .align-bottom-xs {
-  align-items: flex-end;
+  -webkit-box-align: end;
+          align-items: flex-end;
 }
 
 /* line 33, gulp-files/scss/ars1/base/alineaciones.scss */
 .align-stretch-xs {
-  align-items: stretch;
+  -webkit-box-align: stretch;
+          align-items: stretch;
 }
 
 /* line 37, gulp-files/scss/ars1/base/alineaciones.scss */
 .direction-row-xs {
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
 }
 
 /* line 41, gulp-files/scss/ars1/base/alineaciones.scss */
 .direction-row-reverse-xs {
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
 }
 
 /* line 45, gulp-files/scss/ars1/base/alineaciones.scss */
 .direction-column-xs {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 /* line 49, gulp-files/scss/ars1/base/alineaciones.scss */
 .direction-column-reverse-xs {
-  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+          flex-direction: column-reverse;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-1 {
-  order: -1;
+  -webkit-box-ordinal-group: 0;
+          order: -1;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-2 {
-  order: -2;
+  -webkit-box-ordinal-group: -1;
+          order: -2;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-3 {
-  order: -3;
+  -webkit-box-ordinal-group: -2;
+          order: -3;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-4 {
-  order: -4;
+  -webkit-box-ordinal-group: -3;
+          order: -4;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-5 {
-  order: -5;
+  -webkit-box-ordinal-group: -4;
+          order: -5;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-6 {
-  order: -6;
+  -webkit-box-ordinal-group: -5;
+          order: -6;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-7 {
-  order: -7;
+  -webkit-box-ordinal-group: -6;
+          order: -7;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-8 {
-  order: -8;
+  -webkit-box-ordinal-group: -7;
+          order: -8;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-9 {
-  order: -9;
+  -webkit-box-ordinal-group: -8;
+          order: -9;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-10 {
-  order: -10;
+  -webkit-box-ordinal-group: -9;
+          order: -10;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-11 {
-  order: -11;
+  -webkit-box-ordinal-group: -10;
+          order: -11;
 }
 
 /* line 54, gulp-files/scss/ars1/base/alineaciones.scss */
 .first-xs-12 {
-  order: -12;
+  -webkit-box-ordinal-group: -11;
+          order: -12;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-1 {
-  order: 1;
+  -webkit-box-ordinal-group: 2;
+          order: 1;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-2 {
-  order: 2;
+  -webkit-box-ordinal-group: 3;
+          order: 2;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-3 {
-  order: 3;
+  -webkit-box-ordinal-group: 4;
+          order: 3;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-4 {
-  order: 4;
+  -webkit-box-ordinal-group: 5;
+          order: 4;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-5 {
-  order: 5;
+  -webkit-box-ordinal-group: 6;
+          order: 5;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-6 {
-  order: 6;
+  -webkit-box-ordinal-group: 7;
+          order: 6;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-7 {
-  order: 7;
+  -webkit-box-ordinal-group: 8;
+          order: 7;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-8 {
-  order: 8;
+  -webkit-box-ordinal-group: 9;
+          order: 8;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-9 {
-  order: 9;
+  -webkit-box-ordinal-group: 10;
+          order: 9;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-10 {
-  order: 10;
+  -webkit-box-ordinal-group: 11;
+          order: 10;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-11 {
-  order: 11;
+  -webkit-box-ordinal-group: 12;
+          order: 11;
 }
 
 /* line 60, gulp-files/scss/ars1/base/alineaciones.scss */
 .last-xs-12 {
-  order: 12;
+  -webkit-box-ordinal-group: 13;
+          order: 12;
 }
 
 /* line 65, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -1337,15 +1386,18 @@ lista-definicion dd {
 @media (min-width: 544px) {
   /* line 77, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-start-sm {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
   /* line 81, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-center-sm {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
   /* line 85, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-end-sm {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
   /* line 89, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-around-sm {
@@ -1353,135 +1405,172 @@ lista-definicion dd {
   }
   /* line 93, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-between-sm {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
   /* line 97, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-top-sm {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
   /* line 101, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-middle-sm {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
   /* line 105, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-bottom-sm {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
   /* line 108, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-stretch-sm {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-1 {
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+            order: -1;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-2 {
-    order: -2;
+    -webkit-box-ordinal-group: -1;
+            order: -2;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-3 {
-    order: -3;
+    -webkit-box-ordinal-group: -2;
+            order: -3;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-4 {
-    order: -4;
+    -webkit-box-ordinal-group: -3;
+            order: -4;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-5 {
-    order: -5;
+    -webkit-box-ordinal-group: -4;
+            order: -5;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-6 {
-    order: -6;
+    -webkit-box-ordinal-group: -5;
+            order: -6;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-7 {
-    order: -7;
+    -webkit-box-ordinal-group: -6;
+            order: -7;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-8 {
-    order: -8;
+    -webkit-box-ordinal-group: -7;
+            order: -8;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-9 {
-    order: -9;
+    -webkit-box-ordinal-group: -8;
+            order: -9;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-10 {
-    order: -10;
+    -webkit-box-ordinal-group: -9;
+            order: -10;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-11 {
-    order: -11;
+    -webkit-box-ordinal-group: -10;
+            order: -11;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-sm-12 {
-    order: -12;
+    -webkit-box-ordinal-group: -11;
+            order: -12;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-sm-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
   /* line 123, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-sm {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
   /* line 127, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-reverse-sm {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
   /* line 131, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-sm {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
   /* line 135, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-reverse-sm {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
   /* line 139, gulp-files/scss/ars1/base/alineaciones.scss */
   .wrap-sm {
@@ -1496,15 +1585,18 @@ lista-definicion dd {
 @media (min-width: 768px) {
   /* line 77, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-start-md {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
   /* line 81, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-center-md {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
   /* line 85, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-end-md {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
   /* line 89, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-around-md {
@@ -1512,135 +1604,172 @@ lista-definicion dd {
   }
   /* line 93, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-between-md {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
   /* line 97, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-top-md {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
   /* line 101, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-middle-md {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
   /* line 105, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-bottom-md {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
   /* line 108, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-stretch-md {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-1 {
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+            order: -1;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-2 {
-    order: -2;
+    -webkit-box-ordinal-group: -1;
+            order: -2;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-3 {
-    order: -3;
+    -webkit-box-ordinal-group: -2;
+            order: -3;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-4 {
-    order: -4;
+    -webkit-box-ordinal-group: -3;
+            order: -4;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-5 {
-    order: -5;
+    -webkit-box-ordinal-group: -4;
+            order: -5;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-6 {
-    order: -6;
+    -webkit-box-ordinal-group: -5;
+            order: -6;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-7 {
-    order: -7;
+    -webkit-box-ordinal-group: -6;
+            order: -7;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-8 {
-    order: -8;
+    -webkit-box-ordinal-group: -7;
+            order: -8;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-9 {
-    order: -9;
+    -webkit-box-ordinal-group: -8;
+            order: -9;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-10 {
-    order: -10;
+    -webkit-box-ordinal-group: -9;
+            order: -10;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-11 {
-    order: -11;
+    -webkit-box-ordinal-group: -10;
+            order: -11;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-md-12 {
-    order: -12;
+    -webkit-box-ordinal-group: -11;
+            order: -12;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-md-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
   /* line 123, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-md {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
   /* line 127, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-reverse-md {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
   /* line 131, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-md {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
   /* line 135, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-reverse-md {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
   /* line 139, gulp-files/scss/ars1/base/alineaciones.scss */
   .wrap-md {
@@ -1655,15 +1784,18 @@ lista-definicion dd {
 @media (min-width: 992px) {
   /* line 77, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-start-lg {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
   /* line 81, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-center-lg {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
   /* line 85, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-end-lg {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
   /* line 89, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-around-lg {
@@ -1671,135 +1803,172 @@ lista-definicion dd {
   }
   /* line 93, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-between-lg {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
   /* line 97, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-top-lg {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
   /* line 101, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-middle-lg {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
   /* line 105, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-bottom-lg {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
   /* line 108, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-stretch-lg {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-1 {
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+            order: -1;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-2 {
-    order: -2;
+    -webkit-box-ordinal-group: -1;
+            order: -2;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-3 {
-    order: -3;
+    -webkit-box-ordinal-group: -2;
+            order: -3;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-4 {
-    order: -4;
+    -webkit-box-ordinal-group: -3;
+            order: -4;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-5 {
-    order: -5;
+    -webkit-box-ordinal-group: -4;
+            order: -5;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-6 {
-    order: -6;
+    -webkit-box-ordinal-group: -5;
+            order: -6;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-7 {
-    order: -7;
+    -webkit-box-ordinal-group: -6;
+            order: -7;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-8 {
-    order: -8;
+    -webkit-box-ordinal-group: -7;
+            order: -8;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-9 {
-    order: -9;
+    -webkit-box-ordinal-group: -8;
+            order: -9;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-10 {
-    order: -10;
+    -webkit-box-ordinal-group: -9;
+            order: -10;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-11 {
-    order: -11;
+    -webkit-box-ordinal-group: -10;
+            order: -11;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-lg-12 {
-    order: -12;
+    -webkit-box-ordinal-group: -11;
+            order: -12;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-lg-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
   /* line 123, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-lg {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
   /* line 127, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-reverse-lg {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
   /* line 131, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-lg {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
   /* line 135, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-reverse-lg {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
   /* line 139, gulp-files/scss/ars1/base/alineaciones.scss */
   .wrap-lg {
@@ -1814,15 +1983,18 @@ lista-definicion dd {
 @media (min-width: 1200px) {
   /* line 77, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-start-xl {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
   /* line 81, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-center-xl {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
   /* line 85, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-end-xl {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
   /* line 89, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-around-xl {
@@ -1830,135 +2002,172 @@ lista-definicion dd {
   }
   /* line 93, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-between-xl {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
   /* line 97, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-top-xl {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
   /* line 101, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-middle-xl {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
   /* line 105, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-bottom-xl {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
   /* line 108, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-stretch-xl {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-1 {
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+            order: -1;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-2 {
-    order: -2;
+    -webkit-box-ordinal-group: -1;
+            order: -2;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-3 {
-    order: -3;
+    -webkit-box-ordinal-group: -2;
+            order: -3;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-4 {
-    order: -4;
+    -webkit-box-ordinal-group: -3;
+            order: -4;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-5 {
-    order: -5;
+    -webkit-box-ordinal-group: -4;
+            order: -5;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-6 {
-    order: -6;
+    -webkit-box-ordinal-group: -5;
+            order: -6;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-7 {
-    order: -7;
+    -webkit-box-ordinal-group: -6;
+            order: -7;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-8 {
-    order: -8;
+    -webkit-box-ordinal-group: -7;
+            order: -8;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-9 {
-    order: -9;
+    -webkit-box-ordinal-group: -8;
+            order: -9;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-10 {
-    order: -10;
+    -webkit-box-ordinal-group: -9;
+            order: -10;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-11 {
-    order: -11;
+    -webkit-box-ordinal-group: -10;
+            order: -11;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xl-12 {
-    order: -12;
+    -webkit-box-ordinal-group: -11;
+            order: -12;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xl-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
   /* line 123, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-xl {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
   /* line 127, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-reverse-xl {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
   /* line 131, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-xl {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
   /* line 135, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-reverse-xl {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
   /* line 139, gulp-files/scss/ars1/base/alineaciones.scss */
   .wrap-xl {
@@ -1973,15 +2182,18 @@ lista-definicion dd {
 @media (min-width: 1400px) {
   /* line 77, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-start-xxl {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
   }
   /* line 81, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-center-xxl {
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
   /* line 85, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-end-xxl {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
   }
   /* line 89, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-around-xxl {
@@ -1989,135 +2201,172 @@ lista-definicion dd {
   }
   /* line 93, gulp-files/scss/ars1/base/alineaciones.scss */
   .justify-between-xxl {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
   }
   /* line 97, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-top-xxl {
-    align-items: flex-start;
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
   /* line 101, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-middle-xxl {
-    align-items: center;
+    -webkit-box-align: center;
+            align-items: center;
   }
   /* line 105, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-bottom-xxl {
-    align-items: flex-end;
+    -webkit-box-align: end;
+            align-items: flex-end;
   }
   /* line 108, gulp-files/scss/ars1/base/alineaciones.scss */
   .align-stretch-xxl {
-    align-items: stretch;
+    -webkit-box-align: stretch;
+            align-items: stretch;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-1 {
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+            order: -1;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-2 {
-    order: -2;
+    -webkit-box-ordinal-group: -1;
+            order: -2;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-3 {
-    order: -3;
+    -webkit-box-ordinal-group: -2;
+            order: -3;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-4 {
-    order: -4;
+    -webkit-box-ordinal-group: -3;
+            order: -4;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-5 {
-    order: -5;
+    -webkit-box-ordinal-group: -4;
+            order: -5;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-6 {
-    order: -6;
+    -webkit-box-ordinal-group: -5;
+            order: -6;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-7 {
-    order: -7;
+    -webkit-box-ordinal-group: -6;
+            order: -7;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-8 {
-    order: -8;
+    -webkit-box-ordinal-group: -7;
+            order: -8;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-9 {
-    order: -9;
+    -webkit-box-ordinal-group: -8;
+            order: -9;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-10 {
-    order: -10;
+    -webkit-box-ordinal-group: -9;
+            order: -10;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-11 {
-    order: -11;
+    -webkit-box-ordinal-group: -10;
+            order: -11;
   }
   /* line 113, gulp-files/scss/ars1/base/alineaciones.scss */
   .first-xxl-12 {
-    order: -12;
+    -webkit-box-ordinal-group: -11;
+            order: -12;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-1 {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+            order: 1;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-2 {
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-3 {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+            order: 3;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-4 {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+            order: 4;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-5 {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+            order: 5;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-6 {
-    order: 6;
+    -webkit-box-ordinal-group: 7;
+            order: 6;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-7 {
-    order: 7;
+    -webkit-box-ordinal-group: 8;
+            order: 7;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-8 {
-    order: 8;
+    -webkit-box-ordinal-group: 9;
+            order: 8;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-9 {
-    order: 9;
+    -webkit-box-ordinal-group: 10;
+            order: 9;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-10 {
-    order: 10;
+    -webkit-box-ordinal-group: 11;
+            order: 10;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-11 {
-    order: 11;
+    -webkit-box-ordinal-group: 12;
+            order: 11;
   }
   /* line 118, gulp-files/scss/ars1/base/alineaciones.scss */
   .last-xxl-12 {
-    order: 12;
+    -webkit-box-ordinal-group: 13;
+            order: 12;
   }
   /* line 123, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-xxl {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
   }
   /* line 127, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-row-reverse-xxl {
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+            flex-direction: row-reverse;
   }
   /* line 131, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-xxl {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
   /* line 135, gulp-files/scss/ars1/base/alineaciones.scss */
   .direction-column-reverse-xxl {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
   }
   /* line 139, gulp-files/scss/ars1/base/alineaciones.scss */
   .wrap-xxl {
@@ -2408,11 +2657,13 @@ lista-definicion dd {
 
 /* line 257, gulp-files/scss/ars1/base/alineaciones.scss */
 .flex-xs {
+  display: -webkit-box;
   display: flex;
 }
 
 /* line 261, gulp-files/scss/ars1/base/alineaciones.scss */
 .inline-flex-xs {
+  display: -webkit-inline-box;
   display: inline-flex;
 }
 
@@ -2440,10 +2691,12 @@ lista-definicion dd {
   }
   /* line 289, gulp-files/scss/ars1/base/alineaciones.scss */
   .flex-sm {
+    display: -webkit-box;
     display: flex;
   }
   /* line 293, gulp-files/scss/ars1/base/alineaciones.scss */
   .inline-flex-sm {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
   /* line 297, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -2471,10 +2724,12 @@ lista-definicion dd {
   }
   /* line 289, gulp-files/scss/ars1/base/alineaciones.scss */
   .flex-md {
+    display: -webkit-box;
     display: flex;
   }
   /* line 293, gulp-files/scss/ars1/base/alineaciones.scss */
   .inline-flex-md {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
   /* line 297, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -2502,10 +2757,12 @@ lista-definicion dd {
   }
   /* line 289, gulp-files/scss/ars1/base/alineaciones.scss */
   .flex-lg {
+    display: -webkit-box;
     display: flex;
   }
   /* line 293, gulp-files/scss/ars1/base/alineaciones.scss */
   .inline-flex-lg {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
   /* line 297, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -2533,10 +2790,12 @@ lista-definicion dd {
   }
   /* line 289, gulp-files/scss/ars1/base/alineaciones.scss */
   .flex-xl {
+    display: -webkit-box;
     display: flex;
   }
   /* line 293, gulp-files/scss/ars1/base/alineaciones.scss */
   .inline-flex-xl {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
   /* line 297, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -2564,10 +2823,12 @@ lista-definicion dd {
   }
   /* line 289, gulp-files/scss/ars1/base/alineaciones.scss */
   .flex-xxl {
+    display: -webkit-box;
     display: flex;
   }
   /* line 293, gulp-files/scss/ars1/base/alineaciones.scss */
   .inline-flex-xxl {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
   /* line 297, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -2595,10 +2856,12 @@ lista-definicion dd {
   }
   /* line 321, gulp-files/scss/ars1/base/alineaciones.scss */
   .flex-pr {
+    display: -webkit-box;
     display: flex;
   }
   /* line 325, gulp-files/scss/ars1/base/alineaciones.scss */
   .inline-flex-pr {
+    display: -webkit-inline-box;
     display: inline-flex;
   }
   /* line 329, gulp-files/scss/ars1/base/alineaciones.scss */
@@ -2922,6 +3185,7 @@ body.compensate-for-scrollbar {
   -webkit-tap-highlight-color: transparent;
   top: 0;
   touch-action: manipulation;
+  -webkit-transform: translateZ(0);
   transform: translateZ(0);
   width: 100%;
   z-index: 99992;
@@ -2954,15 +3218,19 @@ body.compensate-for-scrollbar {
 .fancybox-bg {
   background: #1e1e1e;
   opacity: 0;
-  transition-duration: inherit;
+  -webkit-transition-duration: inherit;
+          transition-duration: inherit;
+  -webkit-transition-property: opacity;
   transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.47, 0, 0.74, 0.71);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.74, 0.71);
+          transition-timing-function: cubic-bezier(0.47, 0, 0.74, 0.71);
 }
 
 /* line 61, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-is-open .fancybox-bg {
   opacity: 0.9;
-  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+          transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 /* line 66, gulp-files/scss/ars1/externos/fancybox.scss */
@@ -2973,6 +3241,7 @@ body.compensate-for-scrollbar {
   direction: ltr;
   opacity: 0;
   position: absolute;
+  -webkit-transition: opacity 0.25s ease, visibility 0s ease 0.25s;
   transition: opacity 0.25s ease, visibility 0s ease 0.25s;
   visibility: hidden;
   z-index: 99997;
@@ -2984,6 +3253,7 @@ body.compensate-for-scrollbar {
 .fancybox-show-caption .fancybox-caption,
 .fancybox-show-nav .fancybox-navigation .fancybox-button {
   opacity: 1;
+  -webkit-transition: opacity 0.25s ease 0s, visibility 0s ease 0s;
   transition: opacity 0.25s ease 0s, visibility 0s ease 0s;
   visibility: visible;
 }
@@ -3018,6 +3288,7 @@ body.compensate-for-scrollbar {
 .fancybox-stage {
   direction: ltr;
   overflow: visible;
+  -webkit-transform: translateZ(0);
   transform: translateZ(0);
   z-index: 99994;
 }
@@ -3041,7 +3312,10 @@ body.compensate-for-scrollbar {
   position: absolute;
   text-align: center;
   top: 0;
+  transition-property: opacity, -webkit-transform;
+  -webkit-transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
   white-space: normal;
   width: 100%;
   z-index: 99994;
@@ -3109,8 +3383,12 @@ body.compensate-for-scrollbar {
   padding: 0;
   position: absolute;
   top: 0;
+  -webkit-transform-origin: top left;
   transform-origin: top left;
+  transition-property: opacity, -webkit-transform;
+  -webkit-transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3120,11 +3398,13 @@ body.compensate-for-scrollbar {
 
 /* line 210, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-can-zoomOut .fancybox-content {
+  cursor: -webkit-zoom-out;
   cursor: zoom-out;
 }
 
 /* line 215, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-can-zoomIn .fancybox-content {
+  cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
 
@@ -3270,6 +3550,7 @@ body.compensate-for-scrollbar {
   margin: 0;
   padding: 10px;
   position: relative;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
   vertical-align: top;
   visibility: inherit;
@@ -3348,10 +3629,16 @@ body.compensate-for-scrollbar {
   position: absolute;
   right: 0;
   top: 0;
+  -webkit-transform: scaleX(0);
   transform: scaleX(0);
+  -webkit-transform-origin: 0;
   transform-origin: 0;
+  transition-property: -webkit-transform;
+  -webkit-transition-property: -webkit-transform;
   transition-property: transform;
-  transition-timing-function: linear;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
   z-index: 99998;
 }
 
@@ -3429,6 +3716,7 @@ body.compensate-for-scrollbar {
 /* Caption */
 /* line 486, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-caption {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.85)), color-stop(50%, rgba(0, 0, 0, 0.3)), color-stop(65%, rgba(0, 0, 0, 0.15)), color-stop(75.5%, rgba(0, 0, 0, 0.075)), color-stop(82.85%, rgba(0, 0, 0, 0.037)), color-stop(88%, rgba(0, 0, 0, 0.019)), to(transparent));
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.15) 65%, rgba(0, 0, 0, 0.075) 75.5%, rgba(0, 0, 0, 0.037) 82.85%, rgba(0, 0, 0, 0.019) 88%, transparent 100%);
   bottom: 0;
   color: #eee;
@@ -3489,12 +3777,14 @@ body.compensate-for-scrollbar {
 
 @-webkit-keyframes fancybox-rotate {
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
 @keyframes fancybox-rotate {
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -3502,25 +3792,29 @@ body.compensate-for-scrollbar {
 /* Transition effects */
 /* line 565, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-animated {
-  transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
+          transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
 }
 
 /* transitionEffect: slide */
 /* line 572, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-slide.fancybox-slide--previous {
   opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
 }
 
 /* line 577, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-slide.fancybox-slide--next {
   opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
 }
 
 /* line 582, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-slide.fancybox-slide--current {
   opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -3528,7 +3822,8 @@ body.compensate-for-scrollbar {
 /* line 592, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-fade.fancybox-slide--previous, .fancybox-fx-fade.fancybox-slide--next {
   opacity: 0;
-  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+          transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 /* line 597, gulp-files/scss/ars1/externos/fancybox.scss */
@@ -3540,18 +3835,21 @@ body.compensate-for-scrollbar {
 /* line 605, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-zoom-in-out.fancybox-slide--previous {
   opacity: 0;
+  -webkit-transform: scale3d(1.5, 1.5, 1.5);
   transform: scale3d(1.5, 1.5, 1.5);
 }
 
 /* line 610, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-zoom-in-out.fancybox-slide--next {
   opacity: 0;
+  -webkit-transform: scale3d(0.5, 0.5, 0.5);
   transform: scale3d(0.5, 0.5, 0.5);
 }
 
 /* line 615, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-zoom-in-out.fancybox-slide--current {
   opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
 }
 
@@ -3559,18 +3857,21 @@ body.compensate-for-scrollbar {
 /* line 625, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-rotate.fancybox-slide--previous {
   opacity: 0;
+  -webkit-transform: rotate(-360deg);
   transform: rotate(-360deg);
 }
 
 /* line 631, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-rotate.fancybox-slide--next {
   opacity: 0;
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
 /* line 637, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-rotate.fancybox-slide--current {
   opacity: 1;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
@@ -3578,34 +3879,40 @@ body.compensate-for-scrollbar {
 /* line 648, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-circular.fancybox-slide--previous {
   opacity: 0;
+  -webkit-transform: scale3d(0, 0, 0) translate3d(-100%, 0, 0);
   transform: scale3d(0, 0, 0) translate3d(-100%, 0, 0);
 }
 
 /* line 653, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-circular.fancybox-slide--next {
   opacity: 0;
+  -webkit-transform: scale3d(0, 0, 0) translate3d(100%, 0, 0);
   transform: scale3d(0, 0, 0) translate3d(100%, 0, 0);
 }
 
 /* line 658, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-circular.fancybox-slide--current {
   opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 
 /* transitionEffect: tube */
 /* line 668, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-tube.fancybox-slide--previous {
+  -webkit-transform: translate3d(-100%, 0, 0) scale(0.1) skew(-10deg);
   transform: translate3d(-100%, 0, 0) scale(0.1) skew(-10deg);
 }
 
 /* line 672, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-tube.fancybox-slide--next {
+  -webkit-transform: translate3d(100%, 0, 0) scale(0.1) skew(10deg);
   transform: translate3d(100%, 0, 0) scale(0.1) skew(10deg);
 }
 
 /* line 676, gulp-files/scss/ars1/externos/fancybox.scss */
 .fancybox-fx-tube.fancybox-slide--current {
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
   transform: translate3d(0, 0, 0) scale(1);
 }
 
@@ -3686,6 +3993,7 @@ body.compensate-for-scrollbar {
   min-width: 130px;
   padding: 0 15px;
   text-decoration: none;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3867,6 +4175,7 @@ body.compensate-for-scrollbar {
   position: absolute;
   right: 0;
   top: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   z-index: 99991;
 }
@@ -3952,6 +4261,7 @@ body.compensate-for-scrollbar {
  */
 /* line 45, gulp-files/scss/ars1/externos/owl.scss */
 .owl-height {
+  -webkit-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out;
 }
 
@@ -4094,12 +4404,14 @@ body.compensate-for-scrollbar {
 /* line 162, gulp-files/scss/ars1/externos/owl.scss */
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
+  -webkit-transition: opacity 400ms ease;
   transition: opacity 400ms ease;
 }
 
 /* line 170, gulp-files/scss/ars1/externos/owl.scss */
 .owl-carousel .owl-item img {
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
 /* line 174, gulp-files/scss/ars1/externos/owl.scss */
@@ -4122,11 +4434,13 @@ body.compensate-for-scrollbar {
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
+  -webkit-transition: scale 100ms ease;
   transition: scale 100ms ease;
 }
 
 /* line 196, gulp-files/scss/ars1/externos/owl.scss */
 .owl-carousel .owl-video-play-icon:hover {
+  -webkit-transition: scale(1.3, 1.3);
   transition: scale(1.3, 1.3);
 }
 
@@ -4143,6 +4457,7 @@ body.compensate-for-scrollbar {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: opacity 400ms ease;
   transition: opacity 400ms ease;
 }
 
@@ -4157,11 +4472,13 @@ body.compensate-for-scrollbar {
 .owl-next {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   font-size: 5em;
   color: white;
   line-height: 10px;
   cursor: pointer;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   z-index: 1;
   background: transparent;
@@ -4189,7 +4506,8 @@ body.compensate-for-scrollbar {
 
 /* line 257, gulp-files/scss/ars1/externos/owl.scss */
 .owl-prev:hover {
-  transform: translate(-10px, -50%);
+  -webkit-transform: translate(-10px, -50%);
+          transform: translate(-10px, -50%);
 }
 
 /* line 261, gulp-files/scss/ars1/externos/owl.scss */
@@ -4199,7 +4517,8 @@ body.compensate-for-scrollbar {
 
 /* line 263, gulp-files/scss/ars1/externos/owl.scss */
 .owl-next:hover {
-  transform: translate(10px, -50%);
+  -webkit-transform: translate(10px, -50%);
+          transform: translate(10px, -50%);
 }
 
 /* line 267, gulp-files/scss/ars1/externos/owl.scss */
@@ -4222,6 +4541,7 @@ body.compensate-for-scrollbar {
   height: 10px;
   border-radius: 50%;
   border: 1px solid #333333;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
@@ -4284,8 +4604,10 @@ body.compensate-for-scrollbar {
 /* line 23, gulp-files/scss/ars1/estructura/columnas.scss */
 .fila,
 .row {
+  display: -webkit-box;
   display: flex;
-  flex: 0 1 auto;
+  -webkit-box-flex: 0;
+          flex: 0 1 auto;
   flex-wrap: wrap;
   margin-left: -1.5rem;
   margin-right: -1.5rem;
@@ -5511,6 +5833,7 @@ body.compensate-for-scrollbar {
   padding: 1.5rem 3rem;
   text-align: center;
   text-decoration: none;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -5528,9 +5851,12 @@ body.compensate-for-scrollbar {
 @supports (display: flex) {
   /* line 3, gulp-files/scss/ars1/componentes/botones.scss */
   .btn {
+    display: -webkit-inline-box;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
   }
 }
 
@@ -5710,77 +6036,77 @@ body.compensate-for-scrollbar {
 
 /* line 273, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario {
-  background: #BF9156;
-  border-color: #BF9156;
+  background: #C72463;
+  border-color: #C72463;
   outline-color: transparent;
-  box-shadow: 0 0 0 rgba(191, 145, 86, 0);
+  box-shadow: 0 0 0 rgba(199, 36, 99, 0);
   color: white;
 }
 
 @media (pointer: fine) {
   /* line 292, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--primario:hover {
-    background: #c59c67;
-    border-color: #c59c67;
-    box-shadow: 0 5px 10px rgba(191, 145, 86, 0.3);
+    background: #cd3a73;
+    border-color: #cd3a73;
+    box-shadow: 0 5px 10px rgba(199, 36, 99, 0.3);
   }
 }
 
 /* line 305, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario:focus {
-  background: #c2975e;
-  border-color: #c2975e;
-  box-shadow: 0 5px 10px rgba(191, 145, 86, 0.6), 0 0 0 1px #bf9156;
+  background: #ca2f6b;
+  border-color: #ca2f6b;
+  box-shadow: 0 5px 10px rgba(199, 36, 99, 0.6), 0 0 0 1px #c72463;
 }
 
 /* line 321, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario:active, .btn--primario:visited {
-  background: #ac834d;
-  border-color: #ac834d;
-  box-shadow: 0 0 2px rgba(191, 145, 86, 0.1);
+  background: #b32059;
+  border-color: #b32059;
+  box-shadow: 0 0 2px rgba(199, 36, 99, 0.1);
 }
 
 /* line 335, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario[disabled]:hover,
 .btn--primario .disabled:hover {
-  background: #BF9156;
-  border-color: #BF9156;
+  background: #C72463;
+  border-color: #C72463;
   box-shadow: none;
 }
 
 /* line 340, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario .btn__ripple {
-  background: rgba(223, 200, 171, 0.4);
+  background: rgba(227, 146, 177, 0.4);
 }
 
 /* line 343, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario.btn--borde {
-  color: #BF9156;
+  color: #C72463;
   background: transparent;
 }
 
 @media (pointer: fine) {
   /* line 347, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--primario.btn--borde:hover {
-    background: rgba(191, 145, 86, 0.05);
+    background: rgba(199, 36, 99, 0.05);
     box-shadow: none;
   }
 }
 
 /* line 360, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario.btn--borde:focus {
-  box-shadow: 0 0 0 1px #bf9156;
+  box-shadow: 0 0 0 1px #c72463;
 }
 
 /* line 370, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario.btn--borde:active, .btn--primario.btn--borde:visited {
-  background: rgba(191, 145, 86, 0.15);
-  box-shadow: 0 0 2px rgba(191, 145, 86, 0.1);
+  background: rgba(199, 36, 99, 0.15);
+  box-shadow: 0 0 2px rgba(199, 36, 99, 0.1);
 }
 
 /* line 386, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario.btn--link {
-  color: #BF9156;
+  color: #C72463;
   background: transparent;
   border: transparent;
   box-shadow: none;
@@ -5789,7 +6115,7 @@ body.compensate-for-scrollbar {
 @media (pointer: fine) {
   /* line 394, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--primario.btn--link:hover {
-    background: rgba(191, 145, 86, 0.05);
+    background: rgba(199, 36, 99, 0.05);
     box-shadow: none;
   }
   /* line 399, gulp-files/scss/ars1/componentes/botones.scss */
@@ -5801,88 +6127,88 @@ body.compensate-for-scrollbar {
 
 /* line 405, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario.btn--link:focus {
-  background: rgba(191, 145, 86, 0.05);
-  box-shadow: 0 0 0 1px #bf9156;
+  background: rgba(199, 36, 99, 0.05);
+  box-shadow: 0 0 0 1px #c72463;
 }
 
 /* line 416, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--primario.btn--link:active, .btn--primario.btn--link:visited {
-  background: rgba(191, 145, 86, 0.1);
+  background: rgba(199, 36, 99, 0.1);
 }
 
 /* line 273, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario {
-  background: #333333;
-  border-color: #333333;
+  background: #1CB48D;
+  border-color: #1CB48D;
   outline-color: transparent;
-  box-shadow: 0 0 0 rgba(51, 51, 51, 0);
+  box-shadow: 0 0 0 rgba(28, 180, 141, 0);
   color: white;
 }
 
 @media (pointer: fine) {
   /* line 292, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--secundario:hover {
-    background: #474747;
-    border-color: #474747;
-    box-shadow: 0 5px 10px rgba(51, 51, 51, 0.3);
+    background: #33bc98;
+    border-color: #33bc98;
+    box-shadow: 0 5px 10px rgba(28, 180, 141, 0.3);
   }
 }
 
 /* line 305, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario:focus {
-  background: #3d3d3d;
-  border-color: #3d3d3d;
-  box-shadow: 0 5px 10px rgba(51, 51, 51, 0.6), 0 0 0 1px #333333;
+  background: #27b893;
+  border-color: #27b893;
+  box-shadow: 0 5px 10px rgba(28, 180, 141, 0.6), 0 0 0 1px #1cb48d;
 }
 
 /* line 321, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario:active, .btn--secundario:visited {
-  background: #2e2e2e;
-  border-color: #2e2e2e;
-  box-shadow: 0 0 2px rgba(51, 51, 51, 0.1);
+  background: #19a27f;
+  border-color: #19a27f;
+  box-shadow: 0 0 2px rgba(28, 180, 141, 0.1);
 }
 
 /* line 335, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario[disabled]:hover,
 .btn--secundario .disabled:hover {
-  background: #333333;
-  border-color: #333333;
+  background: #1CB48D;
+  border-color: #1CB48D;
   box-shadow: none;
 }
 
 /* line 340, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario .btn__ripple {
-  background: rgba(153, 153, 153, 0.4);
+  background: rgba(142, 218, 198, 0.4);
 }
 
 /* line 343, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario.btn--borde {
-  color: #333333;
+  color: #1CB48D;
   background: transparent;
 }
 
 @media (pointer: fine) {
   /* line 347, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--secundario.btn--borde:hover {
-    background: rgba(51, 51, 51, 0.05);
+    background: rgba(28, 180, 141, 0.05);
     box-shadow: none;
   }
 }
 
 /* line 360, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario.btn--borde:focus {
-  box-shadow: 0 0 0 1px #333333;
+  box-shadow: 0 0 0 1px #1cb48d;
 }
 
 /* line 370, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario.btn--borde:active, .btn--secundario.btn--borde:visited {
-  background: rgba(51, 51, 51, 0.15);
-  box-shadow: 0 0 2px rgba(51, 51, 51, 0.1);
+  background: rgba(28, 180, 141, 0.15);
+  box-shadow: 0 0 2px rgba(28, 180, 141, 0.1);
 }
 
 /* line 386, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario.btn--link {
-  color: #333333;
+  color: #1CB48D;
   background: transparent;
   border: transparent;
   box-shadow: none;
@@ -5891,7 +6217,7 @@ body.compensate-for-scrollbar {
 @media (pointer: fine) {
   /* line 394, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--secundario.btn--link:hover {
-    background: rgba(51, 51, 51, 0.05);
+    background: rgba(28, 180, 141, 0.05);
     box-shadow: none;
   }
   /* line 399, gulp-files/scss/ars1/componentes/botones.scss */
@@ -5903,88 +6229,88 @@ body.compensate-for-scrollbar {
 
 /* line 405, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario.btn--link:focus {
-  background: rgba(51, 51, 51, 0.05);
-  box-shadow: 0 0 0 1px #333333;
+  background: rgba(28, 180, 141, 0.05);
+  box-shadow: 0 0 0 1px #1cb48d;
 }
 
 /* line 416, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--secundario.btn--link:active, .btn--secundario.btn--link:visited {
-  background: rgba(51, 51, 51, 0.1);
+  background: rgba(28, 180, 141, 0.1);
 }
 
 /* line 273, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario {
-  background: #8C6239;
-  border-color: #8C6239;
+  background: #F5C73D;
+  border-color: #F5C73D;
   outline-color: transparent;
-  box-shadow: 0 0 0 rgba(140, 98, 57, 0);
-  color: white;
+  box-shadow: 0 0 0 rgba(245, 199, 61, 0);
+  color: black;
 }
 
 @media (pointer: fine) {
   /* line 292, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--terciario:hover {
-    background: #98724d;
-    border-color: #98724d;
-    box-shadow: 0 5px 10px rgba(140, 98, 57, 0.3);
+    background: #f6cd50;
+    border-color: #f6cd50;
+    box-shadow: 0 5px 10px rgba(245, 199, 61, 0.3);
   }
 }
 
 /* line 305, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario:focus {
-  background: #926a43;
-  border-color: #926a43;
-  box-shadow: 0 5px 10px rgba(140, 98, 57, 0.6), 0 0 0 1px #8c6239;
+  background: #f6ca47;
+  border-color: #f6ca47;
+  box-shadow: 0 5px 10px rgba(245, 199, 61, 0.6), 0 0 0 1px #f5c73d;
 }
 
 /* line 321, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario:active, .btn--terciario:visited {
-  background: #7e5833;
-  border-color: #7e5833;
-  box-shadow: 0 0 2px rgba(140, 98, 57, 0.1);
+  background: #ddb337;
+  border-color: #ddb337;
+  box-shadow: 0 0 2px rgba(245, 199, 61, 0.1);
 }
 
 /* line 335, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario[disabled]:hover,
 .btn--terciario .disabled:hover {
-  background: #8C6239;
-  border-color: #8C6239;
+  background: #F5C73D;
+  border-color: #F5C73D;
   box-shadow: none;
 }
 
 /* line 340, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario .btn__ripple {
-  background: rgba(198, 177, 156, 0.4);
+  background: rgba(250, 227, 158, 0.4);
 }
 
 /* line 343, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario.btn--borde {
-  color: #8C6239;
+  color: #F5C73D;
   background: transparent;
 }
 
 @media (pointer: fine) {
   /* line 347, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--terciario.btn--borde:hover {
-    background: rgba(140, 98, 57, 0.05);
+    background: rgba(245, 199, 61, 0.05);
     box-shadow: none;
   }
 }
 
 /* line 360, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario.btn--borde:focus {
-  box-shadow: 0 0 0 1px #8c6239;
+  box-shadow: 0 0 0 1px #f5c73d;
 }
 
 /* line 370, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario.btn--borde:active, .btn--terciario.btn--borde:visited {
-  background: rgba(140, 98, 57, 0.15);
-  box-shadow: 0 0 2px rgba(140, 98, 57, 0.1);
+  background: rgba(245, 199, 61, 0.15);
+  box-shadow: 0 0 2px rgba(245, 199, 61, 0.1);
 }
 
 /* line 386, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario.btn--link {
-  color: #8C6239;
+  color: #F5C73D;
   background: transparent;
   border: transparent;
   box-shadow: none;
@@ -5993,7 +6319,7 @@ body.compensate-for-scrollbar {
 @media (pointer: fine) {
   /* line 394, gulp-files/scss/ars1/componentes/botones.scss */
   .btn--terciario.btn--link:hover {
-    background: rgba(140, 98, 57, 0.05);
+    background: rgba(245, 199, 61, 0.05);
     box-shadow: none;
   }
   /* line 399, gulp-files/scss/ars1/componentes/botones.scss */
@@ -6005,13 +6331,13 @@ body.compensate-for-scrollbar {
 
 /* line 405, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario.btn--link:focus {
-  background: rgba(140, 98, 57, 0.05);
-  box-shadow: 0 0 0 1px #8c6239;
+  background: rgba(245, 199, 61, 0.05);
+  box-shadow: 0 0 0 1px #f5c73d;
 }
 
 /* line 416, gulp-files/scss/ars1/componentes/botones.scss */
 .btn--terciario.btn--link:active, .btn--terciario.btn--link:visited {
-  background: rgba(140, 98, 57, 0.1);
+  background: rgba(245, 199, 61, 0.1);
 }
 
 /* line 273, gulp-files/scss/ars1/componentes/botones.scss */
@@ -6421,11 +6747,13 @@ body.compensate-for-scrollbar {
   }
   1% {
     opacity: 1;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
     opacity: 0;
-    transform: scale(10);
+    -webkit-transform: scale(10);
+            transform: scale(10);
   }
 }
 
@@ -6435,11 +6763,13 @@ body.compensate-for-scrollbar {
   }
   1% {
     opacity: 1;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
     opacity: 0;
-    transform: scale(10);
+    -webkit-transform: scale(10);
+            transform: scale(10);
   }
 }
 
@@ -6462,6 +6792,7 @@ body.compensate-for-scrollbar {
 /* line 17, gulp-files/scss/ars1/componentes/badges.scss */
 .badge[href] {
   text-decoration: none;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
@@ -6474,40 +6805,40 @@ body.compensate-for-scrollbar {
 
 /* line 43, gulp-files/scss/ars1/componentes/badges.scss */
 .badge--primario {
-  color: #BF9156;
-  background: #f2e9dd;
+  color: #C72463;
+  background: #f4d3e0;
 }
 
 @media (pointer: fine) {
   /* line 53, gulp-files/scss/ars1/componentes/badges.scss */
   .badge--primario[href]:hover {
-    background: #ecdecc;
+    background: #eebdd0;
   }
 }
 
 /* line 43, gulp-files/scss/ars1/componentes/badges.scss */
 .badge--secundario {
-  color: #333333;
-  background: #d6d6d6;
+  color: #1CB48D;
+  background: #d2f0e8;
 }
 
 @media (pointer: fine) {
   /* line 53, gulp-files/scss/ars1/componentes/badges.scss */
   .badge--secundario[href]:hover {
-    background: #c2c2c2;
+    background: #bbe9dd;
   }
 }
 
 /* line 43, gulp-files/scss/ars1/componentes/badges.scss */
 .badge--terciario {
-  color: #8C6239;
-  background: #e8e0d7;
+  color: #c49f31;
+  background: #fdf4d8;
 }
 
 @media (pointer: fine) {
   /* line 53, gulp-files/scss/ars1/componentes/badges.scss */
   .badge--terciario[href]:hover {
-    background: #ddd0c4;
+    background: #fceec5;
   }
 }
 
@@ -6610,8 +6941,10 @@ body.compensate-for-scrollbar {
 
 /* line 43, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta__content {
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
   margin: 0 -1.5rem;
 }
 
@@ -6634,25 +6967,25 @@ body.compensate-for-scrollbar {
 
 /* line 62, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta--primaria {
-  background: #fef4e4;
+  background: #f4d3e0;
   color: #4c446d;
 }
 
 /* line 66, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta--primaria.alerta--hc {
-  background: #FBC878;
+  background: #C72463;
   color: white;
 }
 
 /* line 62, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta--secundaria {
-  background: #e8e0d7;
+  background: #d2f0e8;
   color: #4c446d;
 }
 
 /* line 66, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta--secundaria.alerta--hc {
-  background: #8C6239;
+  background: #1CB48D;
   color: white;
 }
 
@@ -6724,7 +7057,8 @@ body.compensate-for-scrollbar {
 
 /* line 84, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta__contenedor--fixed-top .alerta--hidden {
-  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 /* line 89, gulp-files/scss/ars1/componentes/alertas.scss */
@@ -6734,7 +7068,8 @@ body.compensate-for-scrollbar {
 
 /* line 91, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta__contenedor--fixed-bottom .alerta--hidden {
-  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
 
 /* line 97, gulp-files/scss/ars1/componentes/alertas.scss */
@@ -6752,7 +7087,8 @@ body.compensate-for-scrollbar {
 
 /* line 105, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta--fixed-top .alerta--hidden {
-  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 /* line 110, gulp-files/scss/ars1/componentes/alertas.scss */
@@ -6762,13 +7098,15 @@ body.compensate-for-scrollbar {
 
 /* line 112, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta--fixed-bottom .alerta--hidden {
-  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
 
 /* line 117, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta--global {
   padding: 30px;
   margin: 1.5rem 0;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
@@ -6789,15 +7127,19 @@ body.compensate-for-scrollbar {
 
 /* line 137, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta__contenido {
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
   padding-right: 15px;
 }
 
 @media (max-width: 767px) {
   /* line 137, gulp-files/scss/ars1/componentes/alertas.scss */
   .alerta__contenido {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     padding-right: 0;
   }
 }
@@ -6808,6 +7150,7 @@ body.compensate-for-scrollbar {
   font-size: 1.8rem;
   display: inline-block;
   line-height: 1.8rem;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   position: absolute;
   top: 1rem;
@@ -6822,8 +7165,10 @@ body.compensate-for-scrollbar {
 @media (pointer: fine) {
   /* line 159, gulp-files/scss/ars1/componentes/alertas.scss */
   .alerta__close:hover {
-    transform: rotate(90deg);
-    transform-origin: center;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: center;
+            transform-origin: center;
   }
 }
 
@@ -6846,9 +7191,11 @@ body.compensate-for-scrollbar {
 
 /* line 2, gulp-files/scss/ars1/componentes/galeria.scss */
 .fln-galeria {
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  -webkit-box-align: start;
+          align-items: flex-start;
 }
 
 /* line 7, gulp-files/scss/ars1/componentes/galeria.scss */
@@ -6889,6 +7236,7 @@ body.compensate-for-scrollbar {
 .fln-galeria__item img {
   display: block;
   width: 100%;
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   margin-bottom: 0;
 }
@@ -6900,38 +7248,47 @@ body.compensate-for-scrollbar {
   right: 0;
   bottom: 0;
   left: 0;
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   font-size: 3em;
   color: white;
-  background: rgba(191, 145, 86, 0.4);
+  background: rgba(199, 36, 99, 0.4);
   opacity: 0;
-  transform: scale(2);
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
 }
 
 /* line 45, gulp-files/scss/ars1/componentes/galeria.scss */
 .fln-galeria__mas {
   opacity: 1;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 /* line 51, gulp-files/scss/ars1/componentes/galeria.scss */
 .fln-galeria__item:hover .fln-galeria__ico {
   opacity: 1;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 /* line 55, gulp-files/scss/ars1/componentes/galeria.scss */
 .fln-galeria__item:hover img {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* line 58, gulp-files/scss/ars1/componentes/galeria.scss */
 .fln-galeria__item:hover .fln-galeria__capa {
   opacity: 1;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 /* line 63, gulp-files/scss/ars1/componentes/galeria.scss */
