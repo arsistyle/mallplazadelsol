@@ -61,7 +61,7 @@ const menuResponsive = {
  * SLIDER PRINCIPAL
  */
 const slider = () => {
-  let _slider = $("#slider");
+  let _slider = $(".js-slide");
   _slider.owlCarousel({
     items: 1,
     loop: true,
@@ -117,3 +117,8 @@ fixedHeader();
 
 const observer = lozad();
 observer.observe();
+
+if ($('.rellax').length) {
+  let rellax = new Rellax('.rellax');
+}
+

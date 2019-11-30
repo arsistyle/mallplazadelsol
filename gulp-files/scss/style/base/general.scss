@@ -1,18 +1,32 @@
+// body {
+// 	--ancho: 1360px;
+// 	--header: 80px;
+// 	--logoHeader: 60px;
+// 	// &.scrolled {
+// 	// 	--header: 80px;
+// 	// 	--logoHeader: 60px;
+// 	// }
+// 	@include break (xl-mw) {
+// 		--header: 60px;
+// 		--logoHeader: 40px;
+// 	}
+// }
+
 body {
 	--ancho: 1360px;
-	--header: 80px;
-	--logoHeader: 60px;
-	// &.scrolled {
-	// 	--header: 80px;
-	// 	--logoHeader: 60px;
-	// }
+	--header: 100px;
+	--logoHeader: 70px;
+	&.scrolled {
+		--header: 60px;
+		--logoHeader: 40px;
+	}
 	@include break (xl-mw) {
 		--header: 60px;
 		--logoHeader: 40px;
 	}
 }
 
-main {
+main:not(.inicio-banner) {
 	@include transicion;
 	padding-top: var(--header);
 }
@@ -56,4 +70,8 @@ main {
 			}
 		}
 	}
+}
+
+.breadcrumbs {
+	margin-bottom: 0;
 }

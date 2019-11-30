@@ -59,7 +59,7 @@ var menuResponsive = {
  */
 
 var slider = function slider() {
-  var _slider = $("#slider");
+  var _slider = $(".js-slide");
 
   _slider.owlCarousel({
     items: 1,
@@ -115,3 +115,7 @@ var fixedHeader = function fixedHeader() {
 fixedHeader();
 var observer = lozad();
 observer.observe();
+
+if ($('.rellax').length) {
+  var rellax = new Rellax('.rellax');
+}

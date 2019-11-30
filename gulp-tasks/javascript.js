@@ -30,6 +30,7 @@ const minJS = () => {
     './assets/js/jquery-3.3.1.js',
     './assets/js/jquery-ui.js',
     './assets/js/lozad.js',
+    './assets/js/rellax.js',
     './assets/js/jquery.fancybox.js',
     './assets/js/owl.carousel.js',
     './assets/js/functions.js'

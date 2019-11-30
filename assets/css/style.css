@@ -2,40 +2,46 @@
 /*!
 * ¡ATENCIÓN! Hoja de estilos generada con SASS, no modificar.
 */
-/* line 1, gulp-files/scss/style/base/general.scss */
+/* line 15, gulp-files/scss/style/base/general.scss */
 body {
   --ancho: 1360px;
-  --header: 80px;
-  --logoHeader: 60px;
+  --header: 100px;
+  --logoHeader: 70px;
+}
+
+/* line 19, gulp-files/scss/style/base/general.scss */
+body.scrolled {
+  --header: 60px;
+  --logoHeader: 40px;
 }
 
 @media (max-width: 1199px) {
-  /* line 1, gulp-files/scss/style/base/general.scss */
+  /* line 15, gulp-files/scss/style/base/general.scss */
   body {
     --header: 60px;
     --logoHeader: 40px;
   }
 }
 
-/* line 15, gulp-files/scss/style/base/general.scss */
-main {
+/* line 29, gulp-files/scss/style/base/general.scss */
+main:not(.inicio-banner) {
   -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   padding-top: var(--header);
 }
 
-/* line 20, gulp-files/scss/style/base/general.scss */
+/* line 34, gulp-files/scss/style/base/general.scss */
 .texto-imagen {
   font-size: 0px;
 }
 
-/* line 24, gulp-files/scss/style/base/general.scss */
+/* line 38, gulp-files/scss/style/base/general.scss */
 .frame {
   max-width: var(--ancho);
   margin: auto;
 }
 
-/* line 29, gulp-files/scss/style/base/general.scss */
+/* line 43, gulp-files/scss/style/base/general.scss */
 .burger {
   width: 2.5rem;
   height: 2.5rem;
@@ -49,7 +55,7 @@ main {
   transition: all ease 200ms;
 }
 
-/* line 37, gulp-files/scss/style/base/general.scss */
+/* line 51, gulp-files/scss/style/base/general.scss */
 .burger__item {
   height: .3rem;
   background: white;
@@ -59,7 +65,7 @@ main {
           transform-origin: 0 0;
 }
 
-/* line 46, gulp-files/scss/style/base/general.scss */
+/* line 60, gulp-files/scss/style/base/general.scss */
 .menu-responsive-active .burger .burger__item:nth-child(1) {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -67,17 +73,22 @@ main {
           transform-origin: -10% 50%;
 }
 
-/* line 50, gulp-files/scss/style/base/general.scss */
+/* line 64, gulp-files/scss/style/base/general.scss */
 .menu-responsive-active .burger .burger__item:nth-child(2) {
   opacity: 0;
 }
 
-/* line 53, gulp-files/scss/style/base/general.scss */
+/* line 67, gulp-files/scss/style/base/general.scss */
 .menu-responsive-active .burger .burger__item:nth-child(3) {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   -webkit-transform-origin: -10% 50%;
           transform-origin: -10% 50%;
+}
+
+/* line 75, gulp-files/scss/style/base/general.scss */
+.breadcrumbs {
+  margin-bottom: 0;
 }
 
 /* line 1, gulp-files/scss/style/layout/header.scss */
@@ -89,14 +100,28 @@ main {
   right: 0;
   left: 0;
   z-index: 99;
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
 }
 
-/* line 6, gulp-files/scss/style/layout/header.scss */
-.header--home {
+/* line 7, gulp-files/scss/style/layout/header.scss */
+.inicio-banner .header {
   background: transparent;
 }
 
-/* line 9, gulp-files/scss/style/layout/header.scss */
+@media (max-width: 1199px) {
+  /* line 7, gulp-files/scss/style/layout/header.scss */
+  .inicio-banner .header {
+    background: #3d3d3d;
+  }
+}
+
+/* line 13, gulp-files/scss/style/layout/header.scss */
+.scrolled .header {
+  background: #3d3d3d;
+}
+
+/* line 16, gulp-files/scss/style/layout/header.scss */
 .header__container {
   max-width: var(--ancho);
   margin: auto;
@@ -105,25 +130,25 @@ main {
   transition: all ease 200ms;
 }
 
-/* line 16, gulp-files/scss/style/layout/header.scss */
+/* line 23, gulp-files/scss/style/layout/header.scss */
 .header__item--menu {
   margin-left: auto;
 }
 
 @media (max-width: 1199px) {
-  /* line 16, gulp-files/scss/style/layout/header.scss */
+  /* line 23, gulp-files/scss/style/layout/header.scss */
   .header__item--menu {
     display: none;
   }
 }
 
-/* line 22, gulp-files/scss/style/layout/header.scss */
+/* line 29, gulp-files/scss/style/layout/header.scss */
 .header__item h1 {
   margin: 0;
   line-height: 1;
 }
 
-/* line 27, gulp-files/scss/style/layout/header.scss */
+/* line 34, gulp-files/scss/style/layout/header.scss */
 .header__logo {
   display: block;
   height: var(--logoHeader);
@@ -169,7 +194,7 @@ main {
 /* line 21, gulp-files/scss/style/layout/footer.scss */
 .footer .widget h2 {
   font-size: 2rem;
-  color: #C72463;
+  color: #F5C73D;
   font-weight: normal;
   margin: 0;
   margin-bottom: .5rem;
@@ -302,33 +327,102 @@ main {
   color: #C72463;
 }
 
-/* line 1, gulp-files/scss/style/componentes/slider.scss */
-.slider {
-  margin-bottom: 80px;
+/* line 1, gulp-files/scss/style/componentes/banner-inicio.scss */
+.banner-inicio {
+  height: var(--bannerAltura);
+  overflow: hidden;
+  position: relative;
+  padding: 0 1.5rem;
+  margin-bottom: 5rem;
 }
 
-/* line 3, gulp-files/scss/style/componentes/slider.scss */
-.slider__item {
+/* line 7, gulp-files/scss/style/componentes/banner-inicio.scss */
+.banner-inicio__bg {
+  position: absolute;
+  top: -10%;
+  right: 0;
+  left: 0;
+  height: 120%;
+  width: 100%;
+  background: var(--bannerColorFondo) var(--bannerImagen) center center;
+  background-size: cover;
+}
+
+/* line 13, gulp-files/scss/style/componentes/banner-inicio.scss */
+.banner-inicio__bg::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* line 22, gulp-files/scss/style/componentes/banner-inicio.scss */
+.banner-inicio__contenido {
   position: relative;
-  padding-bottom: 3rem;
+  z-index: 1;
+  max-width: var(--ancho);
+  margin: auto;
+  height: calc(var(--bannerAltura) - var(--header));
+  margin-top: var(--header);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
+}
+
+/* line 33, gulp-files/scss/style/componentes/banner-inicio.scss */
+.banner-inicio__titulo {
+  font-size: 5vw;
+  color: white;
+  font-weight: 900;
+}
+
+/* line 37, gulp-files/scss/style/componentes/banner-inicio.scss */
+.banner-inicio__titulo small {
+  display: block;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 50%;
+}
+
+/* line 1, gulp-files/scss/style/componentes/slide.scss */
+.slide {
+  margin-bottom: 5rem;
+}
+
+/* line 3, gulp-files/scss/style/componentes/slide.scss */
+.slide__item {
   display: block;
 }
 
-/* line 8, gulp-files/scss/style/componentes/slider.scss */
-.slider__img {
-  position: relative;
-  z-index: 1;
+/* line 8, gulp-files/scss/style/componentes/slide.scss */
+.slide__img {
+  display: block;
+  width: 100%;
 }
 
-/* line 12, gulp-files/scss/style/componentes/slider.scss */
-.slider__sombra {
-  position: absolute;
-  top: 1rem;
-  right: 0;
-  left: 0;
-  z-index: 0;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+/* line 1, gulp-files/scss/style/componentes/accesos.scss */
+.accesos {
+  margin-bottom: 5rem;
+}
+
+/* line 3, gulp-files/scss/style/componentes/accesos.scss */
+.accesos__item {
+  display: block;
+}
+
+/* line 6, gulp-files/scss/style/componentes/accesos.scss */
+.accesos__img {
+  display: block;
+  width: 100%;
 }
 
 /* line 3, gulp-files/scss/style/componentes/cards.scss */

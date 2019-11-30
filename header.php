@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package cinesol
+ * @package mallplazadelsol
  */
 
 ?>
@@ -15,7 +15,8 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <link rel="icon" href="<?php bloginfo('template_directory'); ?>/favicon.png" type="">
 
   <script>
 		
@@ -41,10 +42,22 @@
 
 <body <?php body_class(); ?>>
 
+  <?php 
 
-	<main>
+  // print_r(get_field('modo_mantencion', 'options') ? 'true' : 'false');
+  $mantenimiento = '';
+  
+  if(get_field('modo_mantencion', 'options') && !is_user_logged_in()) {
+    $mantenimiento = 'style="display:none;"'
+  ?>
 
-    <header class="header <?php if(is_front_page() && get_field('activar_banner', 'options')) echo 'header--home'; ?>" id="header">
+    <div class="alerta alerta--aviso">Estamos en mantenimiento</div>
+
+  <?php } ?>
+
+  <main <?php if(is_front_page() && get_field('banner_activar', 'options')) echo 'class="inicio-banner"'; ?> <?php echo $mantenimiento; ?>>
+
+    <header class="header" id="header">
       <div class="header__container flex-xs align-middle-xs">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header__item header__item--logo">
           <?php if ( is_front_page() ) : ?>

@@ -1,0 +1,44 @@
+.banner-inicio {
+  height: var(--bannerAltura);
+  overflow: hidden;
+  position: relative;
+  padding: 0 1.5rem;
+  margin-bottom: 5rem;
+  &__bg {
+    @include posicion(absolute, -10%, 0, null, 0);
+    height: 120%;
+    width: 100%;
+    background: var(--bannerColorFondo) var(--bannerImagen) center center;
+    background-size: cover;
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      @include posicion(absolute,0,0,0,0);
+      background: negro(.2);
+    }
+  }
+  &__contenido {
+    position: relative;
+    z-index: 1;
+    max-width: var(--ancho);
+    margin: auto;
+    height: calc(var(--bannerAltura) - var(--header));
+    margin-top: var(--header);
+    display: flex;
+    align-items: center;
+    @include transicion;
+  }
+  &__titulo {
+    font-size: 5vw;
+    color: blanco(1);
+    font-weight: 900;
+    small {
+      display: block;
+      font-weight: 600;
+      line-height: 1;
+      font-size: 50%;
+    }
+  }
+}

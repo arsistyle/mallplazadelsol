@@ -6894,6 +6894,487 @@ body.compensate-for-scrollbar {
   }
 }
 
+/* line 2, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo .text, .form__grupo select, .form__grupo textarea {
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  background: white;
+  font-size: 1.6rem;
+  color: #546e7a;
+  padding: 12px 10px;
+  resize: none;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+/* line 18, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo .text:focus, .form__grupo select:focus, .form__grupo textarea:focus {
+  outline: 0;
+  box-shadow: 0 5px 10px rgba(84, 110, 122, 0.3);
+}
+
+/* line 35, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo .text:focus ~ label, .form__grupo select:focus ~ label, .form__grupo textarea:focus ~ label,
+.form__grupo .text:focus ~ .icono,
+.form__grupo select:focus ~ .icono,
+.form__grupo textarea:focus ~ .icono {
+  color: #C72463;
+}
+
+/* line 42, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo .text[disabled], .form__grupo select[disabled], .form__grupo textarea[disabled] {
+  background: whitesmoke;
+}
+
+/* line 46, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo .text:invalid, .form__grupo select:invalid, .form__grupo textarea:invalid {
+  border-color: #ea5233;
+}
+
+/* line 51, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio, .form__checkbox, .form__toggle {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  position: relative;
+}
+
+@supports ((-webkit-appearance: none) or (-moz-appearance: none) or (appearance: none)) {
+  /* line 56, gulp-files/scss/ars1/componentes/forms.scss */
+  .form__radio input, .form__checkbox input, .form__toggle input {
+    margin-right: 15px;
+    position: relative;
+    -webkit-transition: all ease 200ms;
+    transition: all ease 200ms;
+    cursor: pointer;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+  /* line 64, gulp-files/scss/ars1/componentes/forms.scss */
+  .form__radio input ~ label, .form__checkbox input ~ label, .form__toggle input ~ label {
+    width: calc(100% - 28px);
+  }
+  /* line 68, gulp-files/scss/ars1/componentes/forms.scss */
+  .form__radio input:focus, .form__checkbox input:focus, .form__toggle input:focus {
+    outline: 0;
+  }
+  /* line 73, gulp-files/scss/ars1/componentes/forms.scss */
+  .form__radio input:checked ~ label, .form__checkbox input:checked ~ label, .form__toggle input:checked ~ label {
+    color: #C72463;
+  }
+  /* line 78, gulp-files/scss/ars1/componentes/forms.scss */
+  .form__radio input[disabled], .form__checkbox input[disabled], .form__toggle input[disabled] {
+    cursor: default;
+    opacity: .6;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  /* line 83, gulp-files/scss/ars1/componentes/forms.scss */
+  .form__radio input[disabled] ~ label, .form__checkbox input[disabled] ~ label, .form__toggle input[disabled] ~ label {
+    opacity: .6;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+}
+
+/* line 92, gulp-files/scss/ars1/componentes/forms.scss */
+.form {
+  margin-bottom: 40px;
+}
+
+/* line 96, gulp-files/scss/ars1/componentes/forms.scss */
+.form label {
+  font-size: 1.6em;
+  color: #546e7a;
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+}
+
+/* line 105, gulp-files/scss/ars1/componentes/forms.scss */
+.form label[data-comentario]:after {
+  content: attr(data-comentario);
+  color: #768b95;
+  font-size: 80%;
+  padding-left: 5px;
+}
+
+/* line 113, gulp-files/scss/ars1/componentes/forms.scss */
+.form label a {
+  font-size: 1em;
+}
+
+/* line 118, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo {
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+          flex-direction: column-reverse;
+}
+
+/* line 132, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo select {
+  padding-right: 35px;
+}
+
+/* line 135, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo select::-ms-expand {
+  display: none;
+}
+
+/* line 139, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo select:-moz-focusring, .form__grupo select:-moz-focus-inner {
+  color: transparent !important;
+  text-shadow: 0 0 0 #000 !important;
+  background-image: none !important;
+  border: 0;
+}
+
+/* line 155, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo[data-comentario]::after {
+  content: attr(data-comentario);
+  color: #879aa2;
+  font-size: 1.4rem;
+  display: block;
+  margin-top: 10px;
+  -webkit-box-ordinal-group: -2;
+          order: -3;
+}
+
+/* line 165, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo .icono {
+  display: block;
+  height: 0;
+  align-self: flex-end;
+  pointer-events: none;
+  color: #546e7a;
+  font-size: 2em;
+  margin-right: 10px;
+  line-height: 1.6rem;
+  -webkit-transform: translateY(-3.2rem);
+          transform: translateY(-3.2rem);
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
+  z-index: 2;
+  position: relative;
+}
+
+/* line 182, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo .icono ~ .text,
+.form__grupo .icono ~ select,
+.form__grupo .icono ~ textarea {
+  padding-right: 35px;
+}
+
+/* line 193, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo[data-animacion=placeholder] {
+  margin-bottom: 1.5rem;
+}
+
+/* line 195, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo[data-animacion=placeholder] label {
+  pointer-events: none;
+  display: block;
+  -webkit-transform: translate(10px, 2em);
+          transform: translate(10px, 2em);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  z-index: 2;
+  opacity: .6;
+  line-height: 1;
+}
+
+/* line 204, gulp-files/scss/ars1/componentes/forms.scss */
+.form__grupo[data-animacion=placeholder] label.focus {
+  opacity: 1;
+  -webkit-transform: translate(0, 0) scale(0.85);
+          transform: translate(0, 0) scale(0.85);
+}
+
+/* line 281, gulp-files/scss/ars1/componentes/forms.scss */
+.form__seleccion {
+  margin-bottom: 15px;
+}
+
+/* line 292, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio [type=radio] {
+  opacity: 0;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  z-index: 2;
+}
+
+/* line 300, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio__item {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 0 1px #999999;
+  background: white;
+  border: 3px solid white;
+  position: relative;
+  margin: 0 5px;
+}
+
+/* line 309, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio__item:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* line 322, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio--checked .form__radio__item {
+  background: #C72463;
+  box-shadow: 0 0 0 1px #C72463;
+}
+
+/* line 325, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio--checked .form__radio__item:after {
+  -webkit-animation: active-input 400ms ease 1 forwards;
+          animation: active-input 400ms ease 1 forwards;
+}
+
+/* line 330, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio--disabled {
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+  opacity: .6;
+}
+
+/* line 335, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio--inline {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  margin-right: 30px;
+}
+
+/* line 340, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio--reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
+}
+
+/* line 343, gulp-files/scss/ars1/componentes/forms.scss */
+.form__radio--reverse [type=radio] {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/* line 357, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox [type=checkbox] {
+  opacity: 0;
+  width: 18px;
+  height: 18px;
+  margin: 0 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* line 366, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox__item {
+  border: 2px solid #b3b3b3;
+  width: 18px;
+  height: 18px;
+  background: white;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+
+/* line 378, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox__item:before {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  color: white;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
+  font-size: 18px;
+  z-index: 1;
+}
+
+/* line 388, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox__item:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background: rgba(199, 36, 99, 0.2);
+  opacity: 0;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+/* line 401, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox__item:checked {
+  background: #C72463;
+  border-color: #C72463;
+}
+
+/* line 405, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox__item:checked:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* line 409, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox__item:checked:after {
+  -webkit-animation: active-input 400ms ease 1 forwards;
+          animation: active-input 400ms ease 1 forwards;
+  opacity: 1;
+}
+
+/* line 417, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox--checked .form__checkbox__item {
+  background: #C72463;
+  border-color: #C72463;
+}
+
+/* line 421, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox--checked .form__checkbox__item:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* line 425, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox--checked .form__checkbox__item:after {
+  -webkit-animation: active-input 400ms ease 1 forwards;
+          animation: active-input 400ms ease 1 forwards;
+  opacity: 1;
+}
+
+/* line 432, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox--disabled {
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+  opacity: .6;
+}
+
+/* line 437, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox--inline {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+/* line 443, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox--reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 447, gulp-files/scss/ars1/componentes/forms.scss */
+.form__checkbox--reverse [type=checkbox] {
+  left: auto;
+  right: 0;
+}
+
+/* line 463, gulp-files/scss/ars1/componentes/forms.scss */
+.form__toggle [type=checkbox] {
+  opacity: 0;
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  z-index: 2;
+}
+
+/* line 471, gulp-files/scss/ars1/componentes/forms.scss */
+.form__toggle__item {
+  width: 30px;
+  height: 10px;
+  background: #999999;
+  border-radius: 5px;
+  margin: 0 10px;
+  z-index: 0;
+}
+
+/* line 479, gulp-files/scss/ars1/componentes/forms.scss */
+.form__toggle__item:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999999;
+  background: white;
+  position: relative;
+  top: -5px;
+  left: -5px;
+  border-radius: 50%;
+  z-index: 0;
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
+}
+
+/* line 496, gulp-files/scss/ars1/componentes/forms.scss */
+.form__toggle--checked .form__toggle__item {
+  background: #C72463;
+}
+
+/* line 499, gulp-files/scss/ars1/componentes/forms.scss */
+.form__toggle--checked .form__toggle__item:before {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  border-color: #C72463;
+  -webkit-animation: active-input 400ms ease 1 forwards;
+          animation: active-input 400ms ease 1 forwards;
+}
+
+/* line 506, gulp-files/scss/ars1/componentes/forms.scss */
+.form__toggle--disabled {
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+  opacity: .6;
+}
+
+/* line 510, gulp-files/scss/ars1/componentes/forms.scss */
+.form__toggle label {
+  width: calc(100% - 50px);
+}
+
 /* line 10, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta {
   position: relative;
@@ -7187,6 +7668,255 @@ body.compensate-for-scrollbar {
 /* line 175, gulp-files/scss/ars1/componentes/alertas.scss */
 .alerta a:not(.btn):after {
   display: none;
+}
+
+/* line 2, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general {
+  z-index: 120;
+}
+
+/* line 5, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=screen] {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(199, 36, 99, 0.7);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+/* line 12, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=screen]::after {
+  content: '';
+  display: block;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  border-bottom-color: white;
+  -webkit-animation: rotar 400ms linear infinite;
+          animation: rotar 400ms linear infinite;
+}
+
+/* line 23, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=screen][data-content=logo]::after {
+  display: none;
+}
+
+/* line 26, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=screen][data-content=logo] img {
+  max-width: 60vw;
+}
+
+/* line 32, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=progress] {
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 10px;
+  background: #f0f0f0;
+}
+
+/* line 35, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=progress][data-posicion=top] {
+  top: 0;
+}
+
+/* line 39, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=progress][data-posicion=bottom] {
+  bottom: 0;
+}
+
+/* line 46, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=progress]::before, .preloader-general[data-tipo=progress]::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 100%;
+  background: #C72463;
+  -webkit-animation: progress linear 2s infinite;
+          animation: progress linear 2s infinite;
+  border-radius: 6px;
+}
+
+/* line 60, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=progress]::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 64, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=progress]::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -200px;
+}
+
+/* line 69, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=pill] {
+  position: fixed;
+  right: 0;
+  left: 0;
+  width: 200px;
+  margin: auto;
+  background: #f0f0f0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+/* line 79, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=pill][data-posicion=top] {
+  top: 20px;
+}
+
+/* line 83, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=pill][data-posicion=bottom] {
+  bottom: 20px;
+}
+
+/* line 87, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=pill]::before {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 6px solid rgba(199, 36, 99, 0.2);
+  border-bottom-color: #C72463;
+  -webkit-animation: rotar 400ms linear infinite;
+          animation: rotar 400ms linear infinite;
+}
+
+/* line 98, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=pill]::after {
+  content: 'Cargando...';
+  font-size: 1.4rem;
+  color: #C72463;
+  margin-left: 20px;
+}
+
+/* line 106, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=bounding] {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 35px;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* line 113, gulp-files/scss/ars1/componentes/preloader.scss */
+.preloader-general[data-tipo=bounding]::before {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  border-bottom-color: #C72463;
+  -webkit-animation: bounce 3s ease-in-out infinite;
+          animation: bounce 3s ease-in-out infinite;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+@-webkit-keyframes progress {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
+  }
+}
+
+@keyframes progress {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
+  }
+}
+
+@-webkit-keyframes rotar {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotar {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    border-width: 10px;
+  }
+  25% {
+    border-width: 3px;
+  }
+  50% {
+    -webkit-transform: rotate(300deg);
+            transform: rotate(300deg);
+    border-width: 10px;
+  }
+  75% {
+    border-width: 3px;
+  }
+  100% {
+    border-width: 10px;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    border-width: 10px;
+  }
+  25% {
+    border-width: 3px;
+  }
+  50% {
+    -webkit-transform: rotate(300deg);
+            transform: rotate(300deg);
+    border-width: 10px;
+  }
+  75% {
+    border-width: 3px;
+  }
+  100% {
+    border-width: 10px;
+  }
 }
 
 /* line 2, gulp-files/scss/ars1/componentes/galeria.scss */
