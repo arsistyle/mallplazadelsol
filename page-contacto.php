@@ -49,5 +49,4 @@ get_header();
 		<div class="separador--big"></div>
 	</section>
 
-<?php
-get_footer();
+<?php get_footer(); ?>

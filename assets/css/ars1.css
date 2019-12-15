@@ -851,7 +851,12 @@ p small {
   color: #698998;
 }
 
-/* line 60, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 58, gulp-files/scss/ars1/base/tipografias.scss */
+p strong {
+  font-weight: 600;
+}
+
+/* line 63, gulp-files/scss/ars1/base/tipografias.scss */
 blockquote {
   font-size: 2rem;
   font-style: italic;
@@ -866,28 +871,28 @@ blockquote {
           flex-direction: column;
 }
 
-/* line 69, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 72, gulp-files/scss/ars1/base/tipografias.scss */
 blockquote p {
   color: #607d8b;
   font-weight: inherit;
 }
 
-/* line 73, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 76, gulp-files/scss/ars1/base/tipografias.scss */
 blockquote small {
   align-self: flex-end;
 }
 
-/* line 75, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 78, gulp-files/scss/ars1/base/tipografias.scss */
 blockquote small:before {
   content: '- ';
 }
 
-/* line 81, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 84, gulp-files/scss/ars1/base/tipografias.scss */
 ul, ol, dl {
   list-style-type: none;
 }
 
-/* line 85, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 88, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ul,
 .lista-desordenada,
 .contenido-dinamico ol,
@@ -898,7 +903,7 @@ ul, ol, dl {
   color: #546e7a;
 }
 
-/* line 93, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 96, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ul li,
 .lista-desordenada li,
 .contenido-dinamico ol li,
@@ -910,7 +915,7 @@ ul, ol, dl {
   position: relative;
 }
 
-/* line 97, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 100, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ul li ul, .contenido-dinamico ul li ol,
 .lista-desordenada li ul,
 .lista-desordenada li ol,
@@ -925,7 +930,7 @@ ul, ol, dl {
   margin-bottom: 0;
 }
 
-/* line 100, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 103, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ul li > ul, .contenido-dinamico ul li > ol, .contenido-dinamico ul li > dl,
 .lista-desordenada li > ul,
 .lista-desordenada li > ol,
@@ -945,7 +950,7 @@ ul, ol, dl {
   padding-top: 2rem;
 }
 
-/* line 104, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 107, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ul ol,
 .contenido-dinamico ul ul,
 .contenido-dinamico ul dl,
@@ -968,7 +973,7 @@ ul, ol, dl {
 }
 
 @media (max-width: 767px) {
-  /* line 104, gulp-files/scss/ars1/base/tipografias.scss */
+  /* line 107, gulp-files/scss/ars1/base/tipografias.scss */
   .contenido-dinamico ul ol,
   .contenido-dinamico ul ul,
   .contenido-dinamico ul dl,
@@ -991,7 +996,7 @@ ul, ol, dl {
   }
 }
 
-/* line 118, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 121, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ul li:before,
 .lista-desordenada li:before {
   content: '';
@@ -1007,13 +1012,13 @@ ul, ol, dl {
   margin-right: 1rem;
 }
 
-/* line 134, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 137, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ul li li:before,
 .lista-desordenada li li:before {
   background: transparent;
 }
 
-/* line 141, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 144, gulp-files/scss/ars1/base/tipografias.scss */
 .lista-items {
   display: -webkit-box;
   display: flex;
@@ -1021,7 +1026,7 @@ ul, ol, dl {
   margin-right: -1.5rem;
 }
 
-/* line 145, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 148, gulp-files/scss/ars1/base/tipografias.scss */
 .lista-items li {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -1030,19 +1035,19 @@ ul, ol, dl {
   color: #4d4d4d;
 }
 
-/* line 154, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 157, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ol,
 .lista-ordenada {
   counter-reset: item;
 }
 
-/* line 157, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 160, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ol li,
 .lista-ordenada li {
   padding-left: 2.7rem;
 }
 
-/* line 159, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 162, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ol li:before,
 .lista-ordenada li:before {
   position: absolute;
@@ -1052,44 +1057,44 @@ ul, ol, dl {
   color: #C72463;
 }
 
-/* line 167, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 170, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ol ol,
 .lista-ordenada ol {
   padding-top: 1rem;
 }
 
-/* line 169, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 172, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ol ol li:before,
 .lista-ordenada ol li:before {
   content: counter(item, lower-latin) ". ";
 }
 
-/* line 173, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 176, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico ol ol ol li:before,
 .lista-ordenada ol ol li:before {
   content: counter(item, lower-roman) ". ";
 }
 
-/* line 182, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 185, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico dl dt,
 lista-definicion dt {
   font-weight: 500;
 }
 
-/* line 184, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 187, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico dl dt:after,
 lista-definicion dt:after {
   content: ':';
 }
 
-/* line 188, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 191, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico dl dd,
 lista-definicion dd {
   padding-left: 1rem;
   margin-bottom: 1rem;
 }
 
-/* line 195, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 198, gulp-files/scss/ars1/base/tipografias.scss */
 .contenido-dinamico p,
 .contenido-dinamico blockquote,
 .contenido-dinamico ul,
@@ -1098,7 +1103,7 @@ lista-definicion dd {
   margin-bottom: 2rem;
 }
 
-/* line 213, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 216, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo {
   font-size: 1.6rem;
   color: #C72463;
@@ -1107,7 +1112,7 @@ lista-definicion dd {
   display: inline-block;
 }
 
-/* line 267, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 270, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo:before {
   content: '';
   display: block;
@@ -1126,23 +1131,23 @@ lista-definicion dd {
   transition: all ease 200ms;
 }
 
-/* line 277, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 280, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo:focus {
   outline: 0;
 }
 
-/* line 279, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 282, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo:focus:before {
   -webkit-transform: scaleX(0.5);
           transform: scaleX(0.5);
 }
 
-/* line 283, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 286, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo:hover {
   text-decoration: none;
 }
 
-/* line 285, gulp-files/scss/ars1/base/tipografias.scss */
+/* line 288, gulp-files/scss/ars1/base/tipografias.scss */
 .link-externo:hover:before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);

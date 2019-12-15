@@ -48,12 +48,11 @@
   $mantenimiento = '';
   
   if(get_field('modo_mantencion', 'options') && !is_user_logged_in()) {
-    $mantenimiento = 'style="display:none;"'
-  ?>
-
-    <div class="alerta alerta--aviso">Estamos en mantenimiento</div>
-
-  <?php } ?>
+    $mantenimiento = 'style="display:none;"';
+    
+    get_template_part( 'template-parts/mantenimiento' );
+  
+  } ?>
 
   <main <?php if(is_front_page() && get_field('banner_activar', 'options')) echo 'class="inicio-banner"'; ?> <?php echo $mantenimiento; ?>>
 

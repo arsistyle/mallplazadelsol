@@ -55,6 +55,9 @@ p {
 	small {
 		color: lighten($color-parrafos, 10%);
 	}
+	strong {
+		font-weight: 600;
+	}
 }
 
 blockquote {

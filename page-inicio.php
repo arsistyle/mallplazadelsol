@@ -14,6 +14,4 @@
     get_template_part( 'template-parts/inicio', 'accesos' );
   }
 ?>
-<?php // get_template_part( 'template-parts/inicio', 'cartelera' ); ?>
-<?php // get_template_part( 'template-parts/inicio', 'intereses' ); ?>
 <?php get_footer(); ?>

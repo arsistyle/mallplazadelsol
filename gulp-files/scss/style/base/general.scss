@@ -40,6 +40,10 @@ main:not(.inicio-banner) {
 	margin: auto;
 }
 
+.inner-content {
+	min-height: 60vh;
+}
+
 .burger {
 	$t: &;
 	width: 2.5rem;
@@ -74,4 +78,11 @@ main:not(.inicio-banner) {
 
 .breadcrumbs {
 	margin-bottom: 0;
+}
+
+.sidenav {
+	position: sticky;
+	top: calc(var(--header) + 10px);
+	background: gris(94);
+	padding: 3rem;
 }

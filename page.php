@@ -16,7 +16,7 @@ get_header();
 ?>
 
 	<section class="section section--interior">
-		<!-- <?php get_template_part( 'template-parts/pages', 'banner' ); ?> -->
+		<!-- <?php //get_template_part( 'template-parts/pages', 'banner' ); ?> -->
 		<div class="container-fluid">
 			<div class="frame">
 				<div class="contenido-interior">
