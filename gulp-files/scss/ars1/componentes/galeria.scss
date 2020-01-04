@@ -1,9 +1,12 @@
 @if map-deep-get($_CONFIG, 'componentes', 'externos', 'fancybox') {
-	.fln-galeria {
+	.ars1-galeria {
 		$g: &;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
+		> .row {
+			width: 100%;
+		}
 		&__titulo{
 			width: 100%;
 		}
@@ -23,9 +26,12 @@
 			width: 100%;
 			display: block;
 			position: relative;
+			overflow: hidden;
+			// margin-bottom: 3rem;
 			img {
 				display: block;
 				width: 100%;
+				max-width: none;
 				@include transicion;
 				margin-bottom: 0;
 			}

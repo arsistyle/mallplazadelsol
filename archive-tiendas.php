@@ -21,7 +21,8 @@ get_header();
     $loop = array(
         'post_type' => 'tiendas',
         'orderby'			=> 'title',
-	      'order'				=> 'ASC'
+        'order'				=> 'ASC',
+        'posts_per_page'=>-1
     );
     if ($categoria) {
       $loop['tax_query'] =  array(
@@ -82,7 +83,11 @@ get_header();
                   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                     <a href="<?php echo the_permalink(); ?>" class="tiendas__item">
                       <div class="tiendas__image">
-                        <img class="lozad" src="<?php echo $imagenSmall; ?>" data-src="<?php echo $imagen; ?>" alt="<?php the_title(); ?>">
+                        <?php if ($imagen) {?>
+                          <img class="lozad" src="<?php echo $imagenSmall; ?>" data-src="<?php echo $imagen; ?>" alt="<?php the_title(); ?>">
+                        <?php } else { ?>
+                          <img class="lozad" src="<?php bloginfo('template_directory'); ?>/img/sin-imagen--small.jpg" data-src="<?php bloginfo('template_directory'); ?>/img/sin-imagen.jpg" alt="<?php the_title(); ?>">
+                        <?php } ?> 
                       </div>
                       <div class="tiendas__content">
                         <h3 class="tiendas__title"><?php the_title(); ?></h3>

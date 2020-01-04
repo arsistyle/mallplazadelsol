@@ -7925,7 +7925,7 @@ body.compensate-for-scrollbar {
 }
 
 /* line 2, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria {
+.ars1-galeria {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
@@ -7934,12 +7934,17 @@ body.compensate-for-scrollbar {
 }
 
 /* line 7, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__titulo {
+.ars1-galeria > .row {
   width: 100%;
 }
 
 /* line 10, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__fig {
+.ars1-galeria__titulo {
+  width: 100%;
+}
+
+/* line 13, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__fig {
   position: relative;
   overflow: hidden;
   width: 25%;
@@ -7947,37 +7952,39 @@ body.compensate-for-scrollbar {
 }
 
 @media (max-width: 767px) {
-  /* line 10, gulp-files/scss/ars1/componentes/galeria.scss */
-  .fln-galeria__fig {
+  /* line 13, gulp-files/scss/ars1/componentes/galeria.scss */
+  .ars1-galeria__fig {
     width: 25%;
   }
 }
 
 @media (max-width: 543px) {
-  /* line 10, gulp-files/scss/ars1/componentes/galeria.scss */
-  .fln-galeria__fig {
+  /* line 13, gulp-files/scss/ars1/componentes/galeria.scss */
+  .ars1-galeria__fig {
     width: 33.33%;
   }
 }
 
-/* line 22, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__item {
+/* line 25, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__item {
   width: 100%;
   display: block;
   position: relative;
+  overflow: hidden;
 }
 
-/* line 26, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__item img {
+/* line 31, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__item img {
   display: block;
   width: 100%;
+  max-width: none;
   -webkit-transition: all ease 200ms;
   transition: all ease 200ms;
   margin-bottom: 0;
 }
 
-/* line 33, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__capa {
+/* line 39, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__capa {
   position: absolute;
   top: 0;
   right: 0;
@@ -7999,35 +8006,35 @@ body.compensate-for-scrollbar {
   transition: all ease 200ms;
 }
 
-/* line 45, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__mas {
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
 /* line 51, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__item:hover .fln-galeria__ico {
+.ars1-galeria__mas {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-/* line 55, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__item:hover img {
+/* line 57, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__item:hover .ars1-galeria__ico {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* line 61, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__item:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-/* line 58, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__item:hover .fln-galeria__capa {
+/* line 64, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__item:hover .ars1-galeria__capa {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-/* line 63, gulp-files/scss/ars1/componentes/galeria.scss */
-.fln-galeria__item:focus {
+/* line 69, gulp-files/scss/ars1/componentes/galeria.scss */
+.ars1-galeria__item:focus {
   outline: 0;
 }
 

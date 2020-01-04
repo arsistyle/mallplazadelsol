@@ -17,29 +17,29 @@ if ( ! function_exists( 'mallplazadelsol_setup' ) ) :
 	 */
 	function mallplazadelsol_setup() {
 		/*
-		 * Make theme available for translation.
-		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on mallplazadelsol, use a find and replace
-		 * to change 'mallplazadelsol' to the name of your theme in all the template files.
-		 */
+		* Make theme available for translation.
+		* Translations can be filed in the /languages/ directory.
+		* If you're building a theme based on mallplazadelsol, use a find and replace
+		* to change 'mallplazadelsol' to the name of your theme in all the template files.
+		*/
 		load_theme_textdomain( 'mallplazadelsol', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
 
 		/*
-		 * Let WordPress manage the document title.
-		 * By adding theme support, we declare that this theme does not use a
-		 * hard-coded <title> tag in the document head, and expect WordPress to
-		 * provide it for us.
-		 */
+		* Let WordPress manage the document title.
+		* By adding theme support, we declare that this theme does not use a
+		* hard-coded <title> tag in the document head, and expect WordPress to
+		* provide it for us.
+		*/
 		add_theme_support( 'title-tag' );
 
 		/*
-		 * Enable support for Post Thumbnails on posts and pages.
-		 *
-		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
-		 */
+		* Enable support for Post Thumbnails on posts and pages.
+		*
+		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
+		*/
 		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
@@ -48,9 +48,9 @@ if ( ! function_exists( 'mallplazadelsol_setup' ) ) :
 		) );
 
 		/*
-		 * Switch default core markup for search form, comment form, and comments
-		 * to output valid HTML5.
-		 */
+		* Switch default core markup for search form, comment form, and comments
+		* to output valid HTML5.
+		*/
 		add_theme_support( 'html5', array(
 			'search-form',
 			'comment-form',
@@ -161,6 +161,25 @@ if( function_exists('acf_add_options_page') ) {
 	
 }
 
+//  Titulos paginas archive
+function mallplazadelsol_archive_title( $title ) {
+    if ( is_category() ) {
+        $title = single_cat_title( '', false );
+    } elseif ( is_tag() ) {
+        $title = single_tag_title( '', false );
+    } elseif ( is_author() ) {
+        $title = '<span class="vcard">' . get_the_author() . '</span>';
+    } elseif ( is_post_type_archive() ) {
+        $title = post_type_archive_title( '', false );
+    } elseif ( is_tax() ) {
+        $title = single_term_title( '', false );
+    }
+  
+    return $title;
+}
+ 
+add_filter( 'get_the_archive_title', 'mallplazadelsol_archive_title' );
+
 // CORTAR IMAGENES
 function crop_image($url, $width, $height = null, $crop = null, $single = true) {
 
@@ -258,40 +277,41 @@ function crop_image($url, $width, $height = null, $crop = null, $single = true) 
 }
 
 /*
- * Añadir referencia padre e hijo en Custom Post types en menú principal
- */
+* Añadir referencia padre e hijo en Custom Post types en menú principal
+*/
 function add_current_nav_class($classes, $item) {  
-  // Getting the current post details  
-  global $post;  
-  // Make sure we're not on a single blog post before running the code...  
-  if ( !is_singular( 'post' ) ) {
-    // Getting the post type of the current post  
-    $current_post_type = get_post_type_object(get_post_type($post->ID));  
-    $current_post_type_slug = $current_post_type->rewrite['slug'];  
-    // Getting the URL of the menu item  
-    $menu_slug = strtolower(trim($item->url));  
-    // If the menu item URL contains the current post types slug add the current-menu-item class  
-    if (strpos($menu_slug,$current_post_type_slug) !== false) {  
-      $classes[] = 'current-menu-item';  
-    }   
-    // as we are not on a single blog post, stop blog menu from highlighting  
-    else {  
-      $classes = array_diff( $classes, array( 'current_page_parent' ) );  
-    }  
-  }
-  // Return the corrected set of classes to be added to the menu item  
-  return $classes;  
+	// Getting the current post details  
+	global $post;  
+	// Make sure we're not on a single blog post before running the code...  
+	if ( !is_singular( 'post' ) ) {
+		// Getting the post type of the current post  
+		$current_post_type = get_post_type_object(get_post_type($post->ID));  
+		$current_post_type_slug = $current_post_type->rewrite['slug'];  
+		// Getting the URL of the menu item  
+		$menu_slug = strtolower(trim($item->url));  
+		// If the menu item URL contains the current post types slug add the current-menu-item class  
+		if (strpos($menu_slug,$current_post_type_slug) !== false) {  
+			$classes[] = 'current-menu-item';  
+		}   
+		// as we are not on a single blog post, stop blog menu from highlighting  
+		else {  
+			$classes = array_diff( $classes, array( 'current_page_parent' ) );  
+		}  
+	}
+	// Return the corrected set of classes to be added to the menu item  
+	return $classes;  
 }
 add_action('nav_menu_css_class', 'add_current_nav_class', 10, 2 ); 
 
 /*
- * Modo mantenimiento
- */
+* Modo mantenimiento
+*/
 
- include 'functions/modo-mantenimiento.php';
+include 'functions/modo-mantenimiento.php';
 
 /*
- * Carga de funciones de cada Custom Post type 
- */
-
- include 'functions/eventos.php';
+* Carga de funciones de cada Custom Post type 
+*/
+include 'functions/busqueda-acf.php';
+include 'functions/eventos.php';
+include 'functions/tiendas.php';

@@ -16,40 +16,19 @@ get_header();
 ?>
 
 <?php
-    // Filtro por categoría
-    // $categoria = isset($_GET['categoria']) ? $_GET['categoria'] : null;
-    $loopDestacado = array(
-        'post_type' => 'eventos',
-        'orderby'			=> 'eventos_fecha_desde',
-        'order'				=> 'ASC',
-        'posts_per_page' => 1,
-        'meta_query'     => array(
-          array(
-            'key'     => 'eventos_destacado',
-            'value'   => 1,
-          ) 
-        )
-    );
-
     $loop = array(
-        'post_type' => 'eventos',
+        'post_type' => 'galerias',
         'orderby'			=> 'eventos_fecha_desde',
         'order'				=> 'ASC',
         'posts_per_page'=>-1,
         'meta_query'     => array(
           array(
-            'key'     => 'eventos_destacado',
-            'value'   => 1,
-            'compare' => 'NOT LIKE'
-          ),
-          array(
             'key'     => 'eventos_galeria',
             'value'   => 1,
-            'compare' => 'NOT LIKE'
+            'compare' => 'LIKE'
           ),
         )
     );
-    $queryDestacado = new WP_Query( $loopDestacado );
     $query = new WP_Query( $loop );
 ?>
 
@@ -70,43 +49,9 @@ get_header();
 							<h1><?php echo get_the_archive_title(); ?></h1>
 						</div>
             <div class="col-xs-12">
-                <?php while ( $queryDestacado->have_posts() ) : $queryDestacado->the_post();
-
-                  $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
-                  $imageFull = crop_image($image[0], 665,400, true);
-                  $imageSmall = crop_image($image[0], 665*0.02,400*0.02, true);
-                  
-                ?>
-                  <a href="<?php echo the_permalink(); ?>" class="eventos__item">
-                    <div class="row">
-                      <div class="col-xs-12 col-md-6">
-                          <div class="eventos__image">
-                            <img class="lozad" src="<?php echo $imageSmall; ?>" data-src="<?php echo $imageFull; ?>" alt="<?php the_title(); ?>">
-                          </div>
-                      </div>
-                      <div class="col-xs-12 col-md-6">
-                          <div class="eventos__content contenido-dinamico">
-                            <h3 class="eventos__title"><?php the_title(); ?></h3>
-                            <?php
-                              if (get_field('eventos_descripcion')) echo '<p>'.get_field('eventos_descripcion').'</p>';
-                              if (get_field('eventos_fecha_desde') && get_field('eventos_fecha_hasta')) {
-                                echo '<p><strong>Fecha desde</strong>: '.get_field('eventos_fecha_desde').'</p>';
-                                echo '<p><strong>Fecha hasta</strong>: '.get_field('eventos_fecha_hasta').'</p>';
-                              }
-                              else if (get_field('eventos_fecha_desde')) echo '<p><strong>Fecha</strong>: '.get_field('eventos_fecha_desde').'</p>';
-                              if (get_field('eventos_hora')) echo '<p><strong>Hora</strong>: '.get_field('eventos_hora').'</p>';
-                              if (get_field('eventos_lugar')) echo '<p><strong>Lugar</strong>: '.get_field('eventos_lugar').'</p>';
-                            ?>
-                          </div>
-                      </div>
-                    </div>
-                  </a>
-                <?php endwhile; wp_reset_query(); ?>
-            </div>
-            <div class="col-xs-12">
               <div class="row">
                 <?php while ( $query->have_posts() ) : $query->the_post();
-                  
+
                   $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
                   $imageFull = crop_image($image[0], 665,400, true);
                   $imageSmall = crop_image($image[0], 665*0.02,400*0.02, true);

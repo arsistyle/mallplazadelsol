@@ -1,4 +1,4 @@
-class FLNGaleria {
+class ARS1Galeria {
   constructor (
     selector = '.js-galeria',
     opciones = {
@@ -6,14 +6,14 @@ class FLNGaleria {
     }
   ) {
     this.selector = selector;
-    this.item = 'fln-galeria__item';
+    this.item = 'ars1-galeria__item';
     this.opciones = opciones;
   }
   crear () {
     let _galerias = document.querySelectorAll(this.selector);
     _galerias.forEach((el, i) => {
       let _this = el;
-      let _items = _this.querySelectorAll('.fln-galeria__item');
+      let _items = _this.querySelectorAll('.ars1-galeria__item');
 
       if (_this.getAttribute('data-items')) {
         this.opciones.cantidadItems = Number(_this.getAttribute('data-items'));
@@ -25,8 +25,8 @@ class FLNGaleria {
           let _num = _restantes - _n;
           let _lastItem = _items[_n - 1];
           let _capa = document.createElement('span');
-          _lastItem.querySelector('.fln-galeria__ico').remove();
-          _capa.classList.add('fln-galeria__mas', 'fln-galeria__capa');
+          _lastItem.querySelector('.ars1-galeria__ico').remove();
+          _capa.classList.add('ars1-galeria__mas', 'ars1-galeria__capa');
           _capa.innerText = `+ ${_num}`;
           _lastItem.appendChild(_capa);
 
@@ -44,7 +44,7 @@ class FLNGaleria {
   }
 }
 
-$('.fln-galeria__item').fancybox({
+$('.ars1-galeria__item').fancybox({
   caption: function (instance, item) {
     return $(this).find('figcaption').html();
   },
@@ -66,6 +66,6 @@ $('.fln-galeria__item').fancybox({
   }
 });
 
-let _galeria = new FLNGaleria();
+let _galeria = new ARS1Galeria();
 
 _galeria.init();

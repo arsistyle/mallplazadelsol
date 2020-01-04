@@ -1,5 +1,33 @@
 "use strict";
 
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) {
+      descriptor.writable = true;
+    }
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) {
+    _defineProperties(Constructor.prototype, protoProps);
+  }
+  if (staticProps) {
+    _defineProperties(Constructor, staticProps);
+  }
+  return Constructor;
+}
+
 var _height = window.innerHeight;
 var _scroll = window.scrollY;
 /**
@@ -119,3 +147,114 @@ observer.observe();
 if ($('.rellax').length) {
   var rellax = new Rellax('.rellax');
 }
+/**
+ * CLASES
+ */
+
+
+var ARS1Galeria =
+  /*#__PURE__*/
+  function() {
+    function ARS1Galeria() {
+      var selector = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '.js-galeria';
+      var opciones = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {
+        cantidadItems: undefined
+      };
+
+      _classCallCheck(this, ARS1Galeria);
+
+      this.selector = selector;
+      this.item = 'ars1-galeria__item';
+      this.opciones = opciones;
+    }
+
+    _createClass(ARS1Galeria, [{
+      key: "crear",
+      value: function crear() {
+        var _this2 = this;
+
+        var _galerias = document.querySelectorAll(this.selector);
+
+        var _a = _galerias;
+
+        var _f = function _f(el, i) {
+          var _this = el;
+
+          var _items = _this.querySelectorAll('.ars1-galeria__item');
+
+          if (_this.getAttribute('data-items')) {
+            _this2.opciones.cantidadItems = Number(_this.getAttribute('data-items'));
+          }
+
+          var _n = Number(_this2.opciones.cantidadItems);
+
+          if (_n) {
+            var _restantes = _items.length;
+
+            if (_restantes > _n) {
+              var _num = _restantes - _n;
+
+              var _lastItem = _items[_n - 1];
+
+              var _capa = document.createElement('span');
+
+              _lastItem.querySelector('.ars1-galeria__ico').remove();
+
+              _capa.classList.add('ars1-galeria__mas', 'ars1-galeria__capa');
+
+              _capa.innerText = "+ ".concat(_num);
+
+              _lastItem.appendChild(_capa);
+
+              for (var _i2 = 0; _i2 < _items.length; _i2++) {
+                if (_i2 >= _n) {
+                  _items[_i2].style.display = 'none';
+                }
+              }
+            }
+          }
+
+          $(_items).attr('data-fancybox', "group".concat(i));
+        };
+
+        for (var _i = 0; _i < _a.length; _i++) {
+          _f(_a[_i], _i, _a);
+        }
+
+        undefined;
+      }
+    }, {
+      key: "init",
+      value: function init() {
+        this.crear();
+      }
+    }]);
+
+    return ARS1Galeria;
+  }();
+
+$('.ars1-galeria__item').fancybox({
+  caption: function caption(instance, item) {
+    return $(this).find('figcaption').html();
+  },
+  lang: 'es',
+  i18n: {
+    es: {
+      CLOSE: 'Cerrar',
+      NEXT: 'Siguiente',
+      PREV: 'Anterior',
+      ERROR: 'El contenido no se pudo cargar.',
+      PLAY_START: 'Comenzar presentación',
+      PLAY_STOP: 'Pausar presentación',
+      FULL_SCREEN: 'Pantalla completa',
+      THUMBS: 'Miniaturas',
+      DOWNLOAD: 'Descargar',
+      SHARE: 'Compartir',
+      ZOOM: 'Zoom'
+    }
+  }
+});
+
+var _galeria = new ARS1Galeria();
+
+_galeria.init();

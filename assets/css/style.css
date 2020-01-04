@@ -684,15 +684,16 @@ main:not(.inicio-banner) {
   display: block;
   text-decoration: none;
   position: relative;
+  margin-bottom: 3rem;
 }
 
-/* line 23, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 24, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__image img {
   display: block;
   width: 100%;
 }
 
-/* line 28, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 29, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__content {
   position: absolute;
   top: 0;
@@ -715,13 +716,13 @@ main:not(.inicio-banner) {
   opacity: 0;
 }
 
-/* line 39, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 40, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__title {
   color: white;
   font-size: 1.8rem;
 }
 
-/* line 43, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 44, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__meta {
   position: absolute;
   right: 0;
@@ -733,17 +734,17 @@ main:not(.inicio-banner) {
   font-size: 1.4rem;
 }
 
-/* line 49, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 50, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__meta--dark {
   color: white;
 }
 
-/* line 55, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 56, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__item:hover .tiendas__content {
   opacity: 1;
 }
 
-/* line 61, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 62, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__redes__link {
   text-decoration: none;
   margin-right: 15px;
@@ -751,9 +752,22 @@ main:not(.inicio-banner) {
   transition: all ease 200ms;
 }
 
-/* line 65, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 66, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__redes__link:hover {
   opacity: .6;
+}
+
+/* line 2, gulp-files/scss/style/componentes/eventos.scss */
+.eventos__item {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+/* line 8, gulp-files/scss/style/componentes/eventos.scss */
+.eventos__image img {
+  display: block;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

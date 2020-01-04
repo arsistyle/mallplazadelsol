@@ -3,7 +3,7 @@
 /*
  * Crear columna en el Custom Post Type
  */
-function add_acf_columns ( $columns ) {
+function add_eventos_columns ( $columns ) {
 	return array_merge ( $columns, array ( 
 		'eventos_destacado' => __ ( 'Destacado' ),
 		'eventos_fecha_desde' => __ ( 'Fecha inicio' ),
@@ -11,7 +11,7 @@ function add_acf_columns ( $columns ) {
 		'eventos_hora' => __ ( 'Hora inicio' ),
 	) );
 }
-add_filter ( 'manage_eventos_posts_columns', 'add_acf_columns' );
+add_filter ( 'manage_eventos_posts_columns', 'add_eventos_columns' );
 
 /*
 * Añadir data a las columnas creadas arriba
