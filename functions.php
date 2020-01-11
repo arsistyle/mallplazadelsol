@@ -283,7 +283,7 @@ function add_current_nav_class($classes, $item) {
 	// Getting the current post details  
 	global $post;  
 	// Make sure we're not on a single blog post before running the code...  
-	if ( !is_singular( 'post' ) ) {
+	if ( !is_singular( 'post' ) && is_single() ) {
 		// Getting the post type of the current post  
 		$current_post_type = get_post_type_object(get_post_type($post->ID));  
 		$current_post_type_slug = $current_post_type->rewrite['slug'];  
@@ -315,3 +315,8 @@ include 'functions/modo-mantenimiento.php';
 include 'functions/busqueda-acf.php';
 include 'functions/eventos.php';
 include 'functions/tiendas.php';
+
+/*
+* Manejo de API REST 
+*/
+include 'functions/call-api-rest.php';

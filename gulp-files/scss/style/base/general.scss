@@ -13,76 +13,81 @@
 // }
 
 body {
-	--ancho: 1360px;
-	--header: 100px;
-	--logoHeader: 70px;
-	&.scrolled {
-		--header: 60px;
-		--logoHeader: 40px;
-	}
-	@include break (xl-mw) {
-		--header: 60px;
-		--logoHeader: 40px;
-	}
+  --ancho: 1360px;
+  --header: 100px;
+  --logoHeader: 70px;
+  &.scrolled {
+    --header: 60px;
+    --logoHeader: 40px;
+  }
+  @include break(xl-mw) {
+    --header: 60px;
+    --logoHeader: 40px;
+  }
 }
 
 main:not(.inicio-banner) {
-	@include transicion;
-	padding-top: var(--header);
+  @include transicion;
+  padding-top: var(--header);
 }
 
 .texto-imagen {
-	font-size: 0px;
+  font-size: 0px;
 }
 
 .frame {
-	max-width: var(--ancho);
-	margin: auto;
+  max-width: var(--ancho);
+  margin: auto;
 }
 
 .inner-content {
-	min-height: 60vh;
+  min-height: 60vh;
 }
 
 .burger {
-	$t: &;
-	width: 2.5rem;
-	height: 2.5rem;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-left: auto;
-	@include transicion;
-	&__item {
-		height: .3rem;
-		background: blanco(1);
-		@include transicion;
-		transform-origin: 0 0;
-	}
-	.menu-responsive-active & {
-		// height: 2.5rem;
-		#{$t}__item {
-			&:nth-child(1) {
-				transform: rotate(45deg);
-				transform-origin: -10% 50%;
-			}
-			&:nth-child(2) {
-				opacity: 0;
-			}
-			&:nth-child(3) {
-				transform: rotate(-45deg);
-				transform-origin: -10% 50%;
-			}
-		}
-	}
+  $t: &;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  @include transicion;
+  &__item {
+    height: 0.3rem;
+    background: blanco(1);
+    @include transicion;
+    transform-origin: 0 0;
+  }
+  .menu-responsive-active & {
+    // height: 2.5rem;
+    #{$t}__item {
+      &:nth-child(1) {
+        transform: rotate(45deg);
+        transform-origin: -10% 50%;
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+        transform-origin: -10% 50%;
+      }
+    }
+  }
 }
 
 .breadcrumbs {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .sidenav {
-	position: sticky;
-	top: calc(var(--header) + 10px);
-	background: gris(94);
-	padding: 3rem;
+  position: sticky;
+  top: calc(var(--header) + 10px);
+  background: gris(94);
+  padding: 3rem;
+}
+
+.lozad {
+	display: block;
+	width: 100%;
 }

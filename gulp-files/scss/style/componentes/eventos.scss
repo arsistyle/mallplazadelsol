@@ -1,10 +1,10 @@
 .eventos {
+  $t: &;
   &__item {
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
-  }
-  &__image {
+    position: relative;
     img {
       display: block;
       width: 100%;

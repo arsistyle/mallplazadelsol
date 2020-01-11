@@ -50,33 +50,42 @@ get_header();
 						</div>
             <div class="col-xs-12">
               <div class="row">
-                <?php while ( $query->have_posts() ) : $query->the_post();
+                <?php if ($query->have_posts()) {?>
+                  <?php while ( $query->have_posts() ) : $query->the_post();
 
-                  $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
-                  $imageFull = crop_image($image[0], 665,400, true);
-                  $imageSmall = crop_image($image[0], 665*0.02,400*0.02, true);
+                    $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
+                    $imageFull = crop_image($image[0], 665,400, true);
+                    $imageSmall = crop_image($image[0], 665*0.02,400*0.02, true);
 
-                ?>
-                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <a href="<?php echo the_permalink(); ?>" class="eventos__item">
-                      <div class="eventos__image">
-                        <img class="lozad" src="<?php echo $imageSmall; ?>" data-src="<?php echo $imageFull; ?>" alt="<?php the_title(); ?>">
-                      </div>
-                      <div class="eventos__content contenido-dinamico">
-                        <h3 class="eventos__title"><?php the_title(); ?></h3>
-                        <?php
-                          if (get_field('eventos_fecha_desde') && get_field('eventos_fecha_hasta')) {
-                            echo '<p><strong>Fecha desde</strong>: '.get_field('eventos_fecha_desde').'</p>';
-                            echo '<p><strong>Fecha hasta</strong>: '.get_field('eventos_fecha_hasta').'</p>';
-                          }
-                          else if (get_field('eventos_fecha_desde')) echo '<p><strong>Fecha</strong>: '.get_field('eventos_fecha_desde').'</p>';
-                          if (get_field('eventos_hora')) echo '<p><strong>Hora</strong>: '.get_field('eventos_hora').'</p>';
-                          if (get_field('eventos_lugar')) echo '<p><strong>Lugar</strong>: '.get_field('eventos_lugar').'</p>';
-                        ?>
-                      </div>
-                    </a>
-                  </div>
+                  ?>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <a href="<?php echo the_permalink(); ?>" class="eventos__item sombras">
+                        <div class="eventos__image sombras__image">
+                          <img class="sombras__img lozad" src="<?php echo $imageSmall; ?>" data-src="<?php echo $imageFull; ?>" alt="<?php the_title(); ?>">
+                          <img class="sombras__sombra lozad" src="<?php echo $imageSmall; ?>" data-src="<?php echo $imageFull; ?>" alt="<?php the_title(); ?>">
+                        </div>
+                        <div class="eventos__content contenido-dinamico">
+                          <h3 class="eventos__title"><?php the_title(); ?></h3>
+                          <?php
+                            if (get_field('eventos_fecha_desde') && get_field('eventos_fecha_hasta')) {
+                              echo '<p><strong>Fecha desde</strong>: '.get_field('eventos_fecha_desde').'</p>';
+                              echo '<p><strong>Fecha hasta</strong>: '.get_field('eventos_fecha_hasta').'</p>';
+                            }
+                            else if (get_field('eventos_fecha_desde')) echo '<p><strong>Fecha</strong>: '.get_field('eventos_fecha_desde').'</p>';
+                            if (get_field('eventos_hora')) echo '<p><strong>Hora</strong>: '.get_field('eventos_hora').'</p>';
+                            if (get_field('eventos_lugar')) echo '<p><strong>Lugar</strong>: '.get_field('eventos_lugar').'</p>';
+                          ?>
+                        </div>
+                      </a>
+                    </div>
                 <?php endwhile; wp_reset_query(); ?>
+                <?php } else { ?>
+                  <div class="col-xs-12">
+                    <div class="alerta alerta--aviso">
+                      Por el momento no tenemos galerías.
+                    </div>
+                  </div>
+                <?php } ?>
               </div>
             </div>
 					</div>
