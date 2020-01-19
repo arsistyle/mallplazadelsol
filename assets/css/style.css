@@ -429,20 +429,15 @@ main:not(.inicio-banner) {
   width: 100%;
 }
 
-/* line 1, gulp-files/scss/style/componentes/accesos.scss */
-.accesos {
+/* line 1, gulp-files/scss/style/componentes/promociones.scss */
+.promociones {
   margin-bottom: 5rem;
 }
 
-/* line 3, gulp-files/scss/style/componentes/accesos.scss */
-.accesos__item {
+/* line 3, gulp-files/scss/style/componentes/promociones.scss */
+.promociones__item {
   display: block;
-}
-
-/* line 6, gulp-files/scss/style/componentes/accesos.scss */
-.accesos__img {
-  display: block;
-  width: 100%;
+  margin-bottom: 3rem;
 }
 
 /* line 3, gulp-files/scss/style/componentes/cards.scss */

@@ -182,6 +182,8 @@ var ARS1Galeria =
 
           var _items = _this.querySelectorAll('.ars1-galeria__item');
 
+          var _grupo = _this.getAttribute('data-group') ? _this.getAttribute('data-group') : 'group';
+
           if (_this.getAttribute('data-items')) {
             _this2.opciones.cantidadItems = Number(_this.getAttribute('data-items'));
           }
@@ -214,7 +216,7 @@ var ARS1Galeria =
             }
           }
 
-          $(_items).attr('data-fancybox', "group".concat(i));
+          $(_items).attr('data-fancybox', "".concat(_grupo, "-").concat(i));
         };
 
         for (var _i = 0; _i < _a.length; _i++) {

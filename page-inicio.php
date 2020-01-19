@@ -10,8 +10,8 @@
   }
 ?>
 <?php
-  if( get_field('accesos_activar', 'options')) {
-    get_template_part( 'template-parts/inicio', 'accesos' );
+  if( get_field('promociones_activar', 'options')) {
+    get_template_part( 'template-parts/inicio', 'promociones' );
   }
 ?>
 <?php get_footer(); ?>

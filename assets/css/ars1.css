@@ -7933,11 +7933,6 @@ body.compensate-for-scrollbar {
           align-items: flex-start;
 }
 
-/* line 7, gulp-files/scss/ars1/componentes/galeria.scss */
-.ars1-galeria > .row {
-  width: 100%;
-}
-
 /* line 10, gulp-files/scss/ars1/componentes/galeria.scss */
 .ars1-galeria__titulo {
   width: 100%;

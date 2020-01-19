@@ -19,7 +19,7 @@ get_header();
     $loop = array(
         'post_type' => 'galerias',
         'orderby'			=> 'eventos_fecha_desde',
-        'order'				=> 'ASC',
+        'order'				=> 'DESC',
         'posts_per_page'=>-1,
         'meta_query'     => array(
           array(
@@ -66,7 +66,7 @@ get_header();
                         </div>
                         <div class="eventos__content contenido-dinamico">
                           <h3 class="eventos__title"><?php the_title(); ?></h3>
-                          <?php
+                          <?php /*
                             if (get_field('eventos_fecha_desde') && get_field('eventos_fecha_hasta')) {
                               echo '<p><strong>Fecha desde</strong>: '.get_field('eventos_fecha_desde').'</p>';
                               echo '<p><strong>Fecha hasta</strong>: '.get_field('eventos_fecha_hasta').'</p>';
@@ -74,7 +74,7 @@ get_header();
                             else if (get_field('eventos_fecha_desde')) echo '<p><strong>Fecha</strong>: '.get_field('eventos_fecha_desde').'</p>';
                             if (get_field('eventos_hora')) echo '<p><strong>Hora</strong>: '.get_field('eventos_hora').'</p>';
                             if (get_field('eventos_lugar')) echo '<p><strong>Lugar</strong>: '.get_field('eventos_lugar').'</p>';
-                          ?>
+                          */ ?>
                         </div>
                       </a>
                     </div>

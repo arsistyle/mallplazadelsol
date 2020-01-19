@@ -1,5 +1,5 @@
 class ARS1Galeria {
-  constructor (
+  constructor(
     selector = '.js-galeria',
     opciones = {
       cantidadItems: undefined
@@ -9,11 +9,14 @@ class ARS1Galeria {
     this.item = 'ars1-galeria__item';
     this.opciones = opciones;
   }
-  crear () {
+  crear() {
     let _galerias = document.querySelectorAll(this.selector);
     _galerias.forEach((el, i) => {
       let _this = el;
       let _items = _this.querySelectorAll('.ars1-galeria__item');
+      let _grupo = _this.getAttribute('data-group')
+        ? _this.getAttribute('data-group')
+        : 'group';
 
       if (_this.getAttribute('data-items')) {
         this.opciones.cantidadItems = Number(_this.getAttribute('data-items'));
@@ -36,17 +39,19 @@ class ARS1Galeria {
         }
       }
 
-      $(_items).attr('data-fancybox', `group${i}`);
+      $(_items).attr('data-fancybox', `${_grupo}-${i}`);
     });
   }
-  init () {
+  init() {
     this.crear();
   }
 }
 
 $('.ars1-galeria__item').fancybox({
-  caption: function (instance, item) {
-    return $(this).find('figcaption').html();
+  caption: function(instance, item) {
+    return $(this)
+      .find('figcaption')
+      .html();
   },
   lang: 'es',
   i18n: {
