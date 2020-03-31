@@ -37,10 +37,10 @@ get_header();
               <div class="col-xs-12 col-md-6">
                 <?php
                   $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
-                  $imagenSmall = crop_image($image[0], $image[1]*0.02,$image[2]*0.02, true);
+                  $imagenSmall = crop_image($image[0], 665*0.02);
                 ?>
                 <div class="eventos__image">
-                  <img src="<?php echo $imagenSmall; ?>" data-src="<?php echo $image[0] ?>" alt="" class="lozad">
+                  <img src="<?php echo $imagenSmall; ?>" data-src="<?php echo crop_image($image[0], 665) ?>" alt="" class="lozad">
                 </div>
 
               </div>

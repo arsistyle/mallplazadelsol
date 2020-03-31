@@ -36,6 +36,7 @@ get_header();
           <div class="row direction-row-reverse-xs contenido-dinamico">
               <div class="col-xs-12 col-md-6">
                 <?php the_content(); ?>
+								<div class="alerta js-alerta-contacto" style="display:none"></div>
               </div>
               <div class="col-xs-12 col-md-6">
                 <a href="<?php echo the_field('mapa_url') ?>" class="mapa">
