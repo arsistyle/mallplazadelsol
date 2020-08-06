@@ -52,12 +52,26 @@ get_header();
 						<div class="col-xs-12 contenido-dinamico">
 							<h1>Tiendas</h1>
 						</div>
+            <?php 
+              $taxonomy = 'categoria_tienda';
+              $terms = get_terms($taxonomy);
+            ?>
             <div class="col-xs-12 col-md-3">
                 <aside class="sidenav">
+                  <div class="tiendas__accordeon">
+                    <?php
+                      if ($categoria) {
+                        foreach ( $terms as $term ) {
+                          echo $categoria == $term->slug ? $term->name : null;
+                        }
+                      } else {
+                        echo 'Todas las tiendas';
+                      }
+                    ?>
+                    <span class="tiendas__accordeon__icon"></span>
+                  </div>
                   <div class="tiendas__categorias">
                     <?php
-                      $taxonomy = 'categoria_tienda';
-                      $terms = get_terms($taxonomy);
                       $activoTodas = !$categoria ? 'activo' : ''; 
                       if ( $terms && !is_wp_error( $terms ) ) :
                       ?>

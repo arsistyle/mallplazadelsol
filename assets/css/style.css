@@ -103,9 +103,10 @@ main:not(.inicio-banner) {
   top: calc(var(--header) + 10px);
   background: #f0f0f0;
   padding: 3rem;
+  margin-bottom: 3rem;
 }
 
-/* line 90, gulp-files/scss/style/base/general.scss */
+/* line 91, gulp-files/scss/style/base/general.scss */
 .lozad {
   display: block;
   width: 100%;
@@ -356,19 +357,33 @@ main:not(.inicio-banner) {
   margin-bottom: 5rem;
 }
 
-/* line 7, gulp-files/scss/style/componentes/banner-inicio.scss */
+@media (max-width: 767px) {
+  /* line 1, gulp-files/scss/style/componentes/banner-inicio.scss */
+  .banner-inicio {
+    --bannerAltura: 40vh !important;
+  }
+}
+
+/* line 10, gulp-files/scss/style/componentes/banner-inicio.scss */
 .banner-inicio__bg {
   position: absolute;
-  top: -10%;
+  top: 0;
   right: 0;
   left: 0;
-  height: 120%;
+  height: 110%;
   width: 100%;
   background: var(--bannerColorFondo) var(--bannerImagen) center center;
   background-size: cover;
 }
 
-/* line 13, gulp-files/scss/style/componentes/banner-inicio.scss */
+@media (max-width: 767px) {
+  /* line 10, gulp-files/scss/style/componentes/banner-inicio.scss */
+  .banner-inicio__bg {
+    background-position: center var(--header);
+  }
+}
+
+/* line 19, gulp-files/scss/style/componentes/banner-inicio.scss */
 .banner-inicio__bg::after {
   content: '';
   display: block;
@@ -382,7 +397,7 @@ main:not(.inicio-banner) {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 22, gulp-files/scss/style/componentes/banner-inicio.scss */
+/* line 28, gulp-files/scss/style/componentes/banner-inicio.scss */
 .banner-inicio__contenido {
   position: relative;
   z-index: 1;
@@ -398,14 +413,14 @@ main:not(.inicio-banner) {
   transition: all ease 200ms;
 }
 
-/* line 33, gulp-files/scss/style/componentes/banner-inicio.scss */
+/* line 39, gulp-files/scss/style/componentes/banner-inicio.scss */
 .banner-inicio__titulo {
   font-size: 5vw;
   color: white;
   font-weight: 900;
 }
 
-/* line 37, gulp-files/scss/style/componentes/banner-inicio.scss */
+/* line 43, gulp-files/scss/style/componentes/banner-inicio.scss */
 .banner-inicio__titulo small {
   display: block;
   font-weight: 600;
@@ -664,7 +679,75 @@ main:not(.inicio-banner) {
   margin: 0;
 }
 
-/* line 4, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 3, gulp-files/scss/style/componentes/tiendas.scss */
+.tiendas__accordeon {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  font-size: 1.8rem;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  /* line 3, gulp-files/scss/style/componentes/tiendas.scss */
+  .tiendas__accordeon {
+    display: none;
+  }
+}
+
+/* line 13, gulp-files/scss/style/componentes/tiendas.scss */
+.tiendas__accordeon__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+  margin-left: 1.5rem;
+}
+
+/* line 18, gulp-files/scss/style/componentes/tiendas.scss */
+.tiendas__accordeon__icon::before, .tiendas__accordeon__icon::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: 11px;
+  right: 0;
+  left: 0;
+  -webkit-transition: all ease 200ms;
+  transition: all ease 200ms;
+}
+
+/* line 29, gulp-files/scss/style/componentes/tiendas.scss */
+.tiendas__accordeon__icon::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/* line 35, gulp-files/scss/style/componentes/tiendas.scss */
+.tiendas__accordeon.active .tiendas__accordeon__icon::after {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+/* line 41, gulp-files/scss/style/componentes/tiendas.scss */
+.tiendas__categorias {
+  display: none;
+  padding-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  /* line 41, gulp-files/scss/style/componentes/tiendas.scss */
+  .tiendas__categorias {
+    display: block;
+    padding-top: 0;
+  }
+}
+
+/* line 48, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__categorias__link {
   display: block;
   font-size: 1.6rem;
@@ -675,12 +758,12 @@ main:not(.inicio-banner) {
   transition: all ease 200ms;
 }
 
-/* line 11, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 55, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__categorias__link:hover, .tiendas__categorias__link.activo {
   color: #C72463;
 }
 
-/* line 17, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 61, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__item {
   display: block;
   text-decoration: none;
@@ -688,13 +771,13 @@ main:not(.inicio-banner) {
   margin-bottom: 3rem;
 }
 
-/* line 24, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 68, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__image img {
   display: block;
   width: 100%;
 }
 
-/* line 29, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 73, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__content {
   position: absolute;
   top: 0;
@@ -717,13 +800,13 @@ main:not(.inicio-banner) {
   opacity: 0;
 }
 
-/* line 40, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 84, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__title {
   color: white;
   font-size: 1.8rem;
 }
 
-/* line 44, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 88, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__meta {
   position: absolute;
   right: 0;
@@ -735,17 +818,17 @@ main:not(.inicio-banner) {
   font-size: 1.4rem;
 }
 
-/* line 50, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 94, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__meta--dark {
   color: white;
 }
 
-/* line 56, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 100, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__item:hover .tiendas__content {
   opacity: 1;
 }
 
-/* line 62, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 106, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__redes__link {
   text-decoration: none;
   margin-right: 15px;
@@ -753,7 +836,7 @@ main:not(.inicio-banner) {
   transition: all ease 200ms;
 }
 
-/* line 66, gulp-files/scss/style/componentes/tiendas.scss */
+/* line 110, gulp-files/scss/style/componentes/tiendas.scss */
 .tiendas__redes__link:hover {
   opacity: .6;
 }

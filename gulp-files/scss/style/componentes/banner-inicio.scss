@@ -4,12 +4,18 @@
   position: relative;
   padding: 0 1.5rem;
   margin-bottom: 5rem;
+  @include break(md-mw) {
+    --bannerAltura: 40vh !important;
+  }
   &__bg {
-    @include posicion(absolute, -10%, 0, null, 0);
-    height: 120%;
+    @include posicion(absolute, 0, 0, null, 0);
+    height: 110%;
     width: 100%;
     background: var(--bannerColorFondo) var(--bannerImagen) center center;
     background-size: cover;
+    @include break(md-mw) {
+      background-position: center var(--header);
+    }
     &::after {
       content: '';
       display: block;

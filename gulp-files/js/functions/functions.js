@@ -1,3 +1,4 @@
+let _width = window.innerWidth;
 let _height = window.innerHeight;
 let _scroll = window.scrollY;
 
@@ -15,9 +16,7 @@ const ars1 = {
         fun();
       });
     } else {
-      console.warn(
-        'fln.scrolling(¿function?) : Se debe pasar una función como argumento'
-      );
+      console.warn('fln.scrolling(¿function?) : Se debe pasar una función como argumento');
     }
   },
   responsive(fun) {
@@ -26,15 +25,13 @@ const ars1 = {
 
     if (typeof fun === 'function') {
       fun();
-      window.addEventListener('resize', event => {
+      window.addEventListener('resize', (event) => {
         _width = window.innerWidth;
         _height = window.innerHeight;
         fun();
       });
     } else {
-      console.warn(
-        `fln.responsive(¿function?) : Se debe pasar una función como argumento`
-      );
+      console.warn(`fln.responsive(¿function?) : Se debe pasar una función como argumento`);
     }
   },
   multipleEventsListeners(elem, events, func) {
@@ -57,27 +54,17 @@ const ars1 = {
       //size: opciones.size ? opciones.size : '',
 
       posicion: opciones.posicion ? opciones.posicion : 'top',
-      tiempo: opciones.tiempo ? opciones.tiempo : 5000
+      tiempo: opciones.tiempo ? opciones.tiempo : 5000,
     };
 
-    const _tipoAlertas = [
-      'alerta--exito',
-      'alerta--error',
-      'alerta--info',
-      'alerta--aviso',
-      'alerta--hc'
-    ];
+    const _tipoAlertas = ['alerta--exito', 'alerta--error', 'alerta--info', 'alerta--aviso', 'alerta--hc'];
 
     if (!_opciones.selector) {
       const _alerta = document.createElement('div');
       const _alertaAnterior = document.querySelector('.alerta--global');
       const _body = document.querySelector('body');
       if (_alertaAnterior) _alertaAnterior.remove();
-      _alerta.className = `alerta alerta--global ${
-        _opciones.tipo ? `alerta--${_opciones.tipo}` : ''
-      } alerta--fixed-${_opciones.posicion} ${
-        _opciones.altoContraste ? `alerta--hc` : ''
-      }`;
+      _alerta.className = `alerta alerta--global ${_opciones.tipo ? `alerta--${_opciones.tipo}` : ''} alerta--fixed-${_opciones.posicion} ${_opciones.altoContraste ? `alerta--hc` : ''}`;
       _alerta.innerText = _opciones.texto;
       _body.appendChild(_alerta);
       clearInterval(_clearAlerta);
@@ -98,7 +85,7 @@ const ars1 = {
       }, _opciones.tiempo);
     }
   },
-  init() {}
+  init() {},
 };
 
 /**
@@ -112,7 +99,7 @@ const menuResponsive = {
     const _class = _body.classList.contains(_clasName);
     if (_class) _body.classList.remove(_clasName);
     else _body.classList.add(_clasName);
-  }
+  },
 };
 
 /**
@@ -129,18 +116,18 @@ const slider = () => {
     dots: false,
     navText: [
       `<svg xmlns="http://www.w3.org/2000/svg" width="162" height="279" viewBox="0 0 161.7 278.7"><polygon class="st0" points="139.1 278.7 161.7 256.1 45 139.4 161.7 22.6 139.1 0 0 139.1 0 139.6 "/></svg>`,
-      `<svg xmlns="http://www.w3.org/2000/svg" width="162" height="279" viewBox="0 0 161.7 278.7"><polygon class="st0" points="22.6 0 0 22.6 116.7 139.4 0 256.1 22.6 278.7 161.7 139.6 161.7 139.1 "/></svg>`
+      `<svg xmlns="http://www.w3.org/2000/svg" width="162" height="279" viewBox="0 0 161.7 278.7"><polygon class="st0" points="22.6 0 0 22.6 116.7 139.4 0 256.1 22.6 278.7 161.7 139.6 161.7 139.1 "/></svg>`,
     ],
     responsive: {
       0: {
         nav: false,
-        dots: true
+        dots: true,
       },
       768: {
         nav: true,
-        dots: false
-      }
-    }
+        dots: false,
+      },
+    },
   });
 };
 slider();
@@ -167,6 +154,37 @@ if ($('.rellax').length) {
 }
 
 /**
+ * ACCORDEON TIENDAS
+ */
+
+const ACCORDEON_TIENDAS = () => {
+  const accordeon = document.querySelector('.tiendas__accordeon');
+  const categorias = document.querySelector('.tiendas__categorias');
+  let state = 1;
+  if (accordeon) {
+    accordeon.addEventListener('click', (event) => {
+      if (state) {
+        accordeon.classList.add('active');
+        $(categorias).slideDown('fast');
+        state = 0;
+      } else {
+        state = 1;
+        $(categorias).slideUp('fast');
+        accordeon.classList.remove('active');
+      }
+    });
+    ars1.responsive(() => {
+      if (_width >= 768) {
+        state = 1;
+        accordeon.classList.remove('active');
+        $(categorias).show();
+      }
+    });
+  }
+};
+ACCORDEON_TIENDAS();
+
+/**
  * CLASES
  */
 
@@ -174,7 +192,7 @@ class ARS1Galeria {
   constructor(
     selector = '.js-galeria',
     opciones = {
-      cantidadItems: undefined
+      cantidadItems: undefined,
     }
   ) {
     this.selector = selector;
@@ -186,9 +204,7 @@ class ARS1Galeria {
     _galerias.forEach((el, i) => {
       let _this = el;
       let _items = _this.querySelectorAll('.ars1-galeria__item');
-      let _grupo = _this.getAttribute('data-group')
-        ? _this.getAttribute('data-group')
-        : 'group';
+      let _grupo = _this.getAttribute('data-group') ? _this.getAttribute('data-group') : 'group';
 
       if (_this.getAttribute('data-items')) {
         this.opciones.cantidadItems = Number(_this.getAttribute('data-items'));
@@ -220,10 +236,8 @@ class ARS1Galeria {
 }
 
 $('.ars1-galeria__item').fancybox({
-  caption: function(instance, item) {
-    return $(this)
-      .find('figcaption')
-      .html();
+  caption: function (instance, item) {
+    return $(this).find('figcaption').html();
   },
   lang: 'es',
   i18n: {
@@ -238,63 +252,58 @@ $('.ars1-galeria__item').fancybox({
       THUMBS: 'Miniaturas',
       DOWNLOAD: 'Descargar',
       SHARE: 'Compartir',
-      ZOOM: 'Zoom'
-    }
-  }
+      ZOOM: 'Zoom',
+    },
+  },
 });
 
 let _galeria = new ARS1Galeria();
 
 _galeria.init();
 
-ars1.multipleEventsListeners(
-  document,
-  'wpcf7invalid wpcf7spam wpcf7mailfailed wpcf7mailsent',
-  event => {
-    console.log(event);
-    $('.wpcf7-response-output').remove();
-  }
-);
+ars1.multipleEventsListeners(document, 'wpcf7invalid wpcf7spam wpcf7mailfailed wpcf7mailsent', (event) => {
+  console.log(event);
+  $('.wpcf7-response-output').remove();
+});
 
 /* Validation Events for changing response CSS classes */
 document.addEventListener(
   'wpcf7submit',
-  function(event) {
+  function (event) {
     alert('Fire!');
   },
   false
 );
 document.addEventListener(
   'wpcf7invalid',
-  function(event) {
+  function (event) {
     ars1.alerta({
       selector: '.js-alerta-contacto',
       texto: 'Revisa los campos que están con error',
-      tipo: 'error'
+      tipo: 'error',
     });
   },
   false
 );
-document.addEventListener('wpcf7spam', function(event) {}, false);
+document.addEventListener('wpcf7spam', function (event) {}, false);
 document.addEventListener(
   'wpcf7mailfailed',
-  function(event) {
+  function (event) {
     ars1.alerta({
       selector: '.js-alerta-contacto',
       texto: 'Ocurrió un error al enviar tu mensaje, prueba reintentar',
-      tipo: 'error'
+      tipo: 'error',
     });
   },
   false
 );
 document.addEventListener(
   'wpcf7mailsent',
-  function(event) {
+  function (event) {
     ars1.alerta({
       selector: '.js-alerta-contacto',
-      texto:
-        'Tu mensaje ha sido enviado con éxito, nos contactaremos contigo a la brevedad',
-      tipo: 'exito'
+      texto: 'Tu mensaje ha sido enviado con éxito, nos contactaremos contigo a la brevedad',
+      tipo: 'exito',
     });
   },
   false

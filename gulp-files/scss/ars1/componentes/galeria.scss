@@ -4,9 +4,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
-		// > .row {
-		// 	width: 100%;
-		// }
 		&__titulo{
 			width: 100%;
 		}
@@ -27,7 +24,7 @@
 			display: block;
 			position: relative;
 			overflow: hidden;
-			// margin-bottom: 3rem;
+			margin-bottom: 3rem;
 			img {
 				display: block;
 				width: 100%;

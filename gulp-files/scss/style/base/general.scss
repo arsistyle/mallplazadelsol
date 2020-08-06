@@ -85,6 +85,7 @@ main:not(.inicio-banner) {
   top: calc(var(--header) + 10px);
   background: gris(94);
   padding: 3rem;
+  margin-bottom: 3rem;
 }
 
 .lozad {
