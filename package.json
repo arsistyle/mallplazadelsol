@@ -27,7 +27,7 @@
     "gulp-uglifycss": "^1.1.0",
     "gulp-wait": "^0.0.2",
     "lodash": "^4.17.15",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "require-dir": "^1.2.0"
   }
 }
