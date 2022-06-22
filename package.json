@@ -10,7 +10,7 @@
     "@babel/preset-env": "^7.7.4",
     "@babel/register": "^7.7.4",
     "@babel/runtime": "^7.7.4",
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "babel-cli": "^6.26.0",
     "babel-plugin-array-includes": "^2.0.3",
     "babel-plugin-loop-optimizer": "^1.4.1",
